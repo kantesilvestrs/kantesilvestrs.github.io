@@ -1,0 +1,4 @@
+﻿Before adding image to source control:
+	* All image files need to be optimized
+	* All excess transparent sapce needs to be cropped
+	* Image needs to be added to appropriate sprite file

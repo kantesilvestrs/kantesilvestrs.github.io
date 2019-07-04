@@ -1,0 +1,165 @@
+{
+  "images": [
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_Fish_0000_Layer-1-copy.png",
+      "width": 18,
+      "height": 13,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_Fish_0001_Layer-2-copy.png",
+      "width": 19,
+      "height": 13,
+      "offsetX": 1,
+      "offsetY": 15
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0000_Layer-2.png",
+      "width": 85,
+      "height": 26,
+      "offsetX": 1,
+      "offsetY": 29
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0001_Layer-3.png",
+      "width": 76,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 56
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0002_Layer-4.png",
+      "width": 64,
+      "height": 23,
+      "offsetX": 1,
+      "offsetY": 92
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0003_Layer-5.png",
+      "width": 44,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 116
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_waves_0000_Layer-2.png",
+      "width": 64,
+      "height": 13,
+      "offsetX": 1,
+      "offsetY": 127
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/Mapbase_waves_0001_Layer-3.png",
+      "width": 79,
+      "height": 17,
+      "offsetX": 1,
+      "offsetY": 141
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0000_ship.png",
+      "width": 88,
+      "height": 36,
+      "offsetX": 1,
+      "offsetY": 159
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0000_ship_flipped_horizontal.png",
+      "width": 125,
+      "height": 56,
+      "offsetX": 1,
+      "offsetY": 196
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0001_boat2.png",
+      "width": 22,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 253
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0002_boat1.png",
+      "width": 17,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 268
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0003_taxi2.png",
+      "width": 36,
+      "height": 26,
+      "offsetX": 1,
+      "offsetY": 279
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0003_taxi2_back.png",
+      "width": 36,
+      "height": 26,
+      "offsetX": 1,
+      "offsetY": 306
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0004_taxi1.png",
+      "width": 27,
+      "height": 21,
+      "offsetX": 1,
+      "offsetY": 333
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0004_taxi1_back.png",
+      "width": 36,
+      "height": 26,
+      "offsetX": 1,
+      "offsetY": 355
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM__0005_balloon.png",
+      "width": 38,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 382
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_1_close_wings.png",
+      "width": 9,
+      "height": 16,
+      "offsetX": 1,
+      "offsetY": 433
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_1_open_wings.png",
+      "width": 13,
+      "height": 8,
+      "offsetX": 1,
+      "offsetY": 450
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_2_close_wings.png",
+      "width": 11,
+      "height": 12,
+      "offsetX": 1,
+      "offsetY": 459
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_2_open_wings.png",
+      "width": 13,
+      "height": 8,
+      "offsetX": 1,
+      "offsetY": 472
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_3_close_wings.png",
+      "width": 11,
+      "height": 11,
+      "offsetX": 1,
+      "offsetY": 481
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/small_objects/PCM_B_3_open_wings.png",
+      "width": 11,
+      "height": 8,
+      "offsetX": 1,
+      "offsetY": 493
+    }
+  ]
+}

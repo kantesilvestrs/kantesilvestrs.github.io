@@ -1,0 +1,755 @@
+﻿@import '../../../../client/css/base.less';
+@import '../sprites/smartonclimate.png.less';
+
+#smartonclimate-panel-wrap {
+    @new-map-ratio: 0.6605;
+    width: 1162px;
+    height: 462px;
+    position: absolute;
+    right: -46px;
+    top: -39px;
+    display: none;
+    cursor: pointer;
+
+    & .smartonclimate-panel-container {
+        #bundle .containerFill();
+        overflow: visible;
+        //Title Tag
+        & .title-tag {
+            #bundle .absolutePositionTL(387px,66);
+            z-index: 6;
+            //for testing porposes
+            //display: none !important;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_TitleTag();
+            }
+        }
+        //
+        // Windmills [done ratio]
+        /*#region*/
+        & .windmill-wrap {
+            position: absolute;
+
+            & .windmill-container {
+                #bundle .containerFill(100%,100%);
+
+                & .windmill-blade {
+                    position: absolute;
+                }
+
+                & .windmill-base {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            &.windmill-1 {
+                width: 16px * @new-map-ratio;
+                height: 48px * @new-map-ratio;
+
+                & .windmill-container {
+                    & .windmill-blade {
+                        top: -1px * @new-map-ratio;
+                        left: 1px * @new-map-ratio;
+
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0004_1-Blades();
+                        }
+                    }
+
+                    & .windmill-base {
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0005_1-windmill();
+                        }
+                    }
+                }
+            }
+
+            &.windmill-2 {
+                & .windmill-container {
+                    width: 22px * @new-map-ratio;
+                    height: 36px * @new-map-ratio;
+
+                    & .windmill-blade {
+                        #bundle .topLeftPosition(-7 * @new-map-ratio,-3 * @new-map-ratio);
+
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0002_2-blades();
+                        }
+                    }
+
+                    & .windmill-base {
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0003_2-windmill();
+                        }
+                    }
+                }
+            }
+
+            &.windmill-3 {
+                & .windmill-container {
+                    width: 14px * @new-map-ratio;
+                    height: 51px * @new-map-ratio;
+
+                    & .windmill-blade {
+                        top: -5px * @new-map-ratio;
+                        left: -11px * @new-map-ratio;
+
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0000_3-blades();
+                        }
+                    }
+
+                    & .windmill-base {
+                        & .base-img {
+                            .sprite-Content-map-assets-smartonclimate-img-WindMill__0001_3-windmill();
+                        }
+                    }
+                }
+            }
+            // TODO: Adjust to reposition all left-bottom windmilss
+            @normalpos_deltaY: 0;
+            @normalpos_deltaX: 0;
+
+            &.pos1 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 518 * @new-map-ratio, @normalpos_deltaX + 387 * @new-map-ratio);
+            }
+
+            &.pos2 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 501 * @new-map-ratio, @normalpos_deltaX + 423 * @new-map-ratio);
+            }
+
+            &.pos3 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 464 * @new-map-ratio, @normalpos_deltaX + 402 * @new-map-ratio);
+            }
+
+            &.pos4 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 503 * @new-map-ratio, @normalpos_deltaX + 362 * @new-map-ratio);
+            }
+
+            &.pos5 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 447 * @new-map-ratio, @normalpos_deltaX + 367 * @new-map-ratio);
+            }
+
+            &.pos6 {
+                #bundle .topLeftPosition(@normalpos_deltaY + 467 * @new-map-ratio, @normalpos_deltaX + 343 * @new-map-ratio);
+            }
+            // TODO: Adjust to reposition all right-top windmills at once
+            @backpos_deltaY: -10 * @new-map-ratio;
+            @backpos_deltaX: 0;
+
+            &.back-pos1 {
+                & .windmill-container {
+                    @scale: 0.6 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 122 * @new-map-ratio,@backpos_deltaX + 702 * @new-map-ratio);
+            }
+
+            &.back-pos2 {
+                & .windmill-container {
+                    @scale: 0.7 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(116 * @new-map-ratio,734 * @new-map-ratio);
+            }
+
+            &.back-pos3 {
+                & .windmill-container {
+                    @scale: 0.7 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 143 * @new-map-ratio,@backpos_deltaX + 805 * @new-map-ratio);
+            }
+
+            &.back-pos4 {
+                & .windmill-container {
+                    @scale: 0.6 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 163 * @new-map-ratio,@backpos_deltaX + 755 * @new-map-ratio);
+            }
+
+            &.back-pos5 {
+                & .windmill-container {
+                    @scale: 0.5 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 153 * @new-map-ratio,@backpos_deltaX + 705 * @new-map-ratio);
+            }
+
+            &.back-pos6 {
+                & .windmill-container {
+                    @scale: 0.5 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 131 * @new-map-ratio,@backpos_deltaX + 681 * @new-map-ratio);
+            }
+
+            &.back-pos7 {
+                & .windmill-container {
+                    @scale: 0.7 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 156 * @new-map-ratio,@backpos_deltaX + 652 * @new-map-ratio);
+            }
+
+            &.back-pos8 {
+                & .windmill-container {
+                    @scale: 0.4 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 136 * @new-map-ratio,@backpos_deltaX + 650 * @new-map-ratio);
+            }
+
+            &.back-pos9 {
+                & .windmill-container {
+                    @scale: 0.3 / @new-map-ratio;
+                    #bundle .transform(scale(@scale));
+                }
+
+                #bundle .topLeftPosition(@backpos_deltaY + 133 * @new-map-ratio,689 * @new-map-ratio);
+            }
+        }
+        /*#endregion*/
+        //
+        // General Objects [done ratio]
+        /*#region*/
+        & .sun-ball {
+            position: absolute;
+            top: 300px * @new-map-ratio;
+            right: 600px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0002_Sun();
+            }
+        }
+
+        & .electric-wires {
+            #bundle .absolutePositionTL(132,214);
+            z-index: 200;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0021_Electricalwires();
+            }
+        }
+        /*#endregion*/
+        // Left-Top - Buldings Group [done ratio]
+        /*#region*/
+        & .left-three-buildings {
+            position: absolute;
+            left: 273px * @new-map-ratio;
+            top: 155px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0000_Buildings_leftcorner();
+            }
+        }
+        /*#endregion*/
+        //
+        // Top - Houses and Windmills [done ratio]
+        /*#region*/
+        & .top-house-1 {
+            position: absolute;
+            top: 209px * @new-map-ratio;
+            left: 408px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0019_Houses1();
+            }
+        }
+
+        & .left-mountain-structures {
+            position: absolute;
+            top: 108px * @new-map-ratio;
+            left: 365px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0001_Mountain_structures();
+            }
+        }
+        /*#endregion*/
+        //
+        // Right-Top-Upper-Middle - Bikes and Cars [done ratio]
+        /*#region*/
+        & .right-top-upper-middle-group-car-17 {
+            #bundle .absolutePositionTL(290 * @new-map-ratio;765 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0017_BlueCar();
+            }
+        }
+
+        & .right-top-upper-middle-group-cyclist-3 {
+            #bundle .absolutePositionTL(180 * @new-map-ratio;847 * @new-map-ratio);
+            z-index:10;
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0003_Cyclist1();
+            }
+        }
+        /*#endregion*/
+        //
+        //Middle-Upper-Middle - Houses Group [done ratio]
+        /*#region*/
+        & .left-middle-house-4 {
+            #bundle .absolutePositionTL(342 * @new-map-ratio, 405 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0014_Houses4();
+            }
+        }
+
+        & .middle-house-3 {
+            #bundle .absolutePositionTL(303 * @new-map-ratio, 530 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0015_Houses3();
+            }
+        }
+
+        & .middle-house-2 {
+            #bundle .absolutePositionTL(257 * @new-map-ratio,649 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0016_Houses2();
+            }
+        }
+        /*#endregion*/
+        //
+        // Right-Middle - Building Group [done ratio]
+        /*#region*/
+
+        & .buildings-rightcorner-Layer-1 {
+            #bundle .absolutePositionTL(330 * @new-map-ratio,1152 * @new-map-ratio);
+            z-index: 110;
+
+            & .base-img {
+               .sprite-Content-map-assets-smartonclimate-img-Buildings_rightcorner_0000_Layer-1();
+            }
+        }
+        & .buildings-rightcorner-Layer-2{
+            #bundle .absolutePositionTL(245 * @new-map-ratio,1162 * @new-map-ratio);
+            z-index: 100;
+
+            & .base-img {
+               .sprite-Content-map-assets-smartonclimate-img-Buildings_rightcorner_0001_Layer-2_empty();
+            }
+        }
+
+        & .right-middle-group-right-solarpanel {
+            position: absolute;
+
+            @solar-panel-deltaX: 8px;
+            @solar-panel-deltaY: 0px;
+
+            &.right-middle-panel1 {
+                #bundle .topLeftPosition(273 + @solar-panel-deltaY,841 + @solar-panel-deltaX);
+                z-index: 103;
+            }
+
+            &.right-middle-panel2 {
+                #bundle .topLeftPosition(265 + @solar-panel-deltaY,829 + @solar-panel-deltaX);
+                z-index: 102;
+            }
+
+            &.right-middle-panel3 {
+                #bundle .topLeftPosition(257 + @solar-panel-deltaY,818 + @solar-panel-deltaX);
+                z-index: 101;
+            }
+
+            &.right-middle-panel4 {
+                #bundle .topLeftPosition(248 + @solar-panel-deltaY,807 + @solar-panel-deltaX);
+                z-index: 100;
+            }
+
+            & .base-img {
+                #bundle .transform(rotate(-14deg));
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0009_SolarPanel_002();
+            }
+        }
+
+        & .fat-building-solar-panel-group {
+            position: absolute;
+            display:none;
+            @solar-panel-deltaX: 2px;
+            @solar-panel-deltaY: -10px;
+
+             &.fat-building-panel1 {
+                #bundle .topLeftPosition(319 + @solar-panel-deltaY,641 + @solar-panel-deltaX);
+                z-index: 223;
+            }
+
+            &.fat-building-panel2 {
+                 #bundle .topLeftPosition(316 + @solar-panel-deltaY,636 + @solar-panel-deltaX);
+                z-index: 222;
+            }
+
+            &.fat-building-panel3 {
+                 #bundle .topLeftPosition(313 + @solar-panel-deltaY,631 + @solar-panel-deltaX);
+                z-index: 221;
+            }
+
+            & .base-img {
+                /*.sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0006_Building_fat_solarpanel();*/
+                @scale: 0.40 / @new-map-ratio;
+                #bundle .transform(scale(@scale));
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0009_SolarPanel_002();
+            }
+        }
+
+        & .rightcorner-building-solar-panel-group {
+            position: absolute;
+            display:none;
+            @solar-panel-deltaX: 0px;
+            @solar-panel-deltaY: -6px;
+
+             &.right-side-panel1 {
+                #bundle .topLeftPosition(163 + @solar-panel-deltaY,781 + @solar-panel-deltaX);
+                z-index: 223;
+            }
+
+            &.right-side-panel2 {
+                 #bundle .topLeftPosition(161 + @solar-panel-deltaY,775 + @solar-panel-deltaX);
+                z-index: 222;
+            }
+
+            &.right-side-panel3 {
+                 #bundle .topLeftPosition(159 + @solar-panel-deltaY,769 + @solar-panel-deltaX);
+                z-index: 221;
+            }
+
+            & .base-img {
+                 @scale: 0.40 / @new-map-ratio;
+                #bundle .transform(scale(@scale));
+                .sprite-Content-map-assets-smartonclimate-img-Buildings_rightcorner_0002_Layer-2_solarpanel();
+            }
+        }
+
+
+        & .right-middle-group-left-building {
+            #bundle .absolutePositionTL(205 * @new-map-ratio,1100 * @new-map-ratio);
+            z-index: 7;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0010_Building_neon();
+            }
+        }
+        /*#endregion*/
+        //
+        // Upper-Middle - Train [done ratio]
+        /*#region Related to train*/
+        & .train-carriage-1 {
+            position: absolute;
+            top: 397px * @new-map-ratio;
+            right: 989px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_train_0000();
+            }
+        }
+
+        & .train-carriage-2 {
+            position: absolute;
+            top: 353px * @new-map-ratio;
+            right: 915px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_train_0001();
+            }
+        }
+
+        & .train-carriage-3 {
+            position: absolute;
+            top: 315px * @new-map-ratio;
+            right: 845px * @new-map-ratio;
+            z-index: 2;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_train_0002();
+            }
+        }
+
+        & .train-carriage-4 {
+            position: absolute;
+            top: 275px * @new-map-ratio;
+            right: 770px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_train_0003();
+            }
+        }
+
+        & .tunnel-bottom {
+            position: absolute;
+            top: 575px * @new-map-ratio;
+            right: 1250px * @new-map-ratio;
+            z-index: 5;
+            @scale: 0.85 / @new-map-ratio;
+            #bundle .transform(scale(@scale));
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__Tunnel_bottom();
+            }
+        }
+
+        & .tunnel-top {
+            position: absolute;
+            top: 200px * @new-map-ratio;
+            right: 550px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__Tunnel_top();
+            }
+        }
+
+        & .human-ball{
+            width: 5px;
+            height: 5px;
+            #bundle.border-radius(5px,5px,5px,5px);
+
+            &.red{
+                background-color: red;
+            }
+
+            &.blue{
+                background-color: blue;
+            }
+
+            &.yellow{
+                background-color: yellow;
+            }
+
+            &.orange{
+                background-color: orange;
+            }
+        }
+        
+        //The top most at the first train doors
+        & #soc-ppl-group-to-train-1{
+            position:absolute;
+            top:490px * @new-map-ratio;
+            right:976px * @new-map-ratio;
+            z-index:4;
+        }
+        //Below the ppl near first train doors
+        & #soc-ppl-group-from-train-1{
+            position:absolute;
+            top:456px * @new-map-ratio;
+            right:1045px * @new-map-ratio;
+            z-index:4;
+        }
+
+        //The top most at the second train doors
+        & #soc-ppl-group-to-train-2{
+            position:absolute;
+            top:435px * @new-map-ratio;
+            right:760px * @new-map-ratio;
+            z-index:4;
+        }
+        //Below the ppl near second train doors
+        & #soc-ppl-group-from-train-2{
+            position:absolute;
+            top:345px * @new-map-ratio;
+            right:860px * @new-map-ratio;
+            z-index:4;
+        }
+
+        /*#endregion*/
+        // Middle-Middle - Building Group [done ratio]
+        /*#region*/
+        & .middle-group-top-building {
+            #bundle .absolutePositionTL(228 * @new-map-ratio,943 * @new-map-ratio);
+            z-index: 7;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0007_Building_Green();
+            }
+        }
+
+        & .middle-group-middle-right-building-21 {
+            #bundle .absolutePositionTL(328 * @new-map-ratio,985 * @new-map-ratio);
+            z-index: 201;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0021_Greenbuilding();
+            }
+        }
+
+        & .middle-group-middle-middle-building-21 {
+            #bundle .absolutePositionTL(386 * @new-map-ratio,909 * @new-map-ratio);
+            z-index: 201;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0021_Yellowbuilding();
+            }
+        }
+
+        & .middle-group-middle-left-building-8 {
+            #bundle .absolutePositionTL(299 * @new-map-ratio,791 * @new-map-ratio);
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0008_Buildings_center();
+            }
+        }
+
+        & .middle-group-bottom-right-buildings-6 {
+            #bundle .absolutePositionTL(465 * @new-map-ratio,783 * @new-map-ratio);
+            z-index: 220;
+
+            & .base-img {
+               .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0006_Building_fat_empty();
+            }
+        }
+
+        & .middle-group-bottom-left-building-13 {
+            #bundle .absolutePositionTL(399 * @new-map-ratio,740 * @new-map-ratio);
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0013_Bluebuilding();
+            }
+        }
+        /*#endregion*/
+        //
+        // Left-Top - Tree Group [done ratio]
+        /*#region*/
+        & .left-top-group-trees-8 {
+            #bundle .absolutePositionTL(176 * @new-map-ratio,451 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_08();
+            }
+        }
+        /*#endregion*/
+        //
+        // Middle-Middle - Tree Group [done ratio]
+        /*#region*/
+        & .middle-middle-group-trees-7 {
+            #bundle .absolutePositionTL(256 * @new-map-ratio,598 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_07();
+            }
+        }
+
+        & .middle-middle-group-trees-5 {
+            #bundle .absolutePositionTL(343 * @new-map-ratio, 586 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_05();
+            }
+        }
+
+        & .middle-middle-group-tree-6 {
+            #bundle .absolutePositionTL(288 * @new-map-ratio, 737 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_06();
+            }
+        }
+
+        & .middle-middle-group-tree-4 {
+            #bundle .absolutePositionTL(419 * @new-map-ratio, 893 * @new-map-ratio);
+            z-index: 200;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_04();
+            }
+        }
+        /*#endregion*/
+        //
+        // Middle-Bottom - Tree Group [done ratio]
+        /*#region*/
+        & .middle-bottom-group-trees-3 {
+            #bundle .absolutePositionTL(457 * @new-map-ratio, 777 * @new-map-ratio);
+            z-index: 200;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_03();
+            }
+        }
+
+        & .middle-bottom-group-trees-0 {
+            #bundle .absolutePositionTL(568 * @new-map-ratio, 753 * @new-map-ratio);
+            z-index: 204;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_00();
+            }
+        }
+
+        & .middle-bottom-group-tree-1 {
+            #bundle .absolutePositionTL(578 * @new-map-ratio, 854 * @new-map-ratio);
+            z-index: 204;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_01();
+            }
+        }
+        /*#endregion*/
+        //
+        // Middle-Right - Tree Group [done ratio]
+        /*#region*/
+        & .middle-right-group-tree-2 {
+            #bundle .absolutePositionTL(456 * @new-map-ratio, 1201 * @new-map-ratio);
+            z-index: 199;
+
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate_Tree_02();
+            }
+        }
+        /*#endregion*/
+        //
+        // Middle-Bottom - Cyclist Group [done ratio]
+        /*#region*/
+        & .middle-bottom-group-cyclist-4 {
+            #bundle .absolutePositionTL(421,703);
+            z-index:220;
+            & .base-img {
+                .sprite-Content-map-assets-smartonclimate-img-SmartonClimate__0004_Cyclist2();
+            }
+        }
+        /*#endregion*/
+
+        & #soc-lake-waves-1{
+            position:absolute;
+            top:310px * @new-map-ratio;
+            right:1390px * @new-map-ratio;
+            @scale: 0.55 / @new-map-ratio;
+            #bundle .transform(scale(@scale));
+
+            z-index:1;
+
+            & .base-img{
+                .sprite-Content-map-assets-smartonclimate-img-Map_base_SmartonClimate_lakeWaves1();
+            }
+        }
+        & #soc-lake-waves-2{
+            position:absolute;
+           top:310px * @new-map-ratio;
+            right:1390px * @new-map-ratio;
+            @scale: 0.55 / @new-map-ratio;
+            #bundle .transform(scale(@scale));
+            z-index:1;
+
+            & .base-img{
+                .sprite-Content-map-assets-smartonclimate-img-Map_base_SmartonClimate_lakeWaves2();
+            }
+        }
+    }
+}

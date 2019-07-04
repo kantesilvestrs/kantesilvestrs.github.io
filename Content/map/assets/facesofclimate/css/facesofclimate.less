@@ -1,0 +1,103 @@
+﻿@import '../../../../client/css/base.less';
+@import '../sprites/facesofclimate_sprites.png.less';
+
+#facesofclimate-panel-wrap {
+    @new-map-ratio: 0.6605;
+    width: 600px;
+    height: 420px;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    display: none;
+    & .facesofclimate-panel-container {
+        #bundle .containerFill();
+        overflow: visible;
+
+        & .tv-trailers {
+            cursor: pointer;
+            #bundle.absolutePositionTL(131,-1);
+
+            & .base-img {
+                .sprite-Content-map-assets-facesofclimate-img-Map_icons__0000_TV_6695_percent();
+            }
+        }
+
+        & a {
+            text-decoration: none;
+            color: inherit;
+
+            & div {
+                & .info-baloon {
+                    display: none;
+                    position: absolute;
+                    background-image: url(/Content/map/assets/facesofclimate/img/baloon_bg.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    #bundle.border-radius(30px,30px,30px,30px);
+
+                    & img.tail{
+                        #bundle.absolutePositionTL(-38,60);
+                        #bundle.transform(rotateX(180deg));
+                    }
+
+                    & .content {
+                        #bundle.box-sizing();
+                        #bundle.constantSize(100%,100%);
+                        position: relative;
+                        float: left;
+                        #bundle.clearfix();
+
+                        & p.text{
+                            width: 100%;
+                            padding: 0;
+                            margin: 0;
+                            color: white;
+                            font-size: 28px;
+                            text-align: center;
+                        }
+
+                        & .link{
+                            text-align: center;
+                            font-size: 28px;
+                            margin-left: -10px;
+                            margin-top: 18px;
+                        }
+                    }
+                }
+            }
+
+            & .camera-donations {
+                #bundle.absolutePositionTL(123,283);
+
+                & .info-baloon {
+                    #bundle.absolutePositionTL(142,128);
+                    width: 600px;
+                    height: 240px;
+                    padding: 20px;
+                    
+                }
+
+                & .base-img {
+                    .sprite-Content-map-assets-facesofclimate-img-Map_icons__0002_donate_6695_percent();
+                }
+            }
+
+            & .blog-typer {
+                #bundle.absolutePositionTL(17,373);
+
+                & .info-baloon {
+                    #bundle.absolutePositionTL(142,128);
+                    width: 450px;
+                    height: 200px;
+                    padding: 20px;
+                    
+                }
+
+                & .base-img {
+                    .sprite-Content-map-assets-facesofclimate-img-Map_icons__0003_blog_6695_percent();
+                }
+            }
+        }
+    }
+}

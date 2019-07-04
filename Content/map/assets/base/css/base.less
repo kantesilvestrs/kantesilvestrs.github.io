@@ -1,0 +1,73 @@
+﻿@import '../../../../client/css/base.less';
+@import '../sprites/centertitle.png.less';
+
+#map-base-panel-wrap {
+    @new-map-ratio: 0.6695;
+    top: 50%;
+    left: 50%;
+    margin-top: -800px;
+    margin-left: -1280px;
+    position: absolute;
+    display: none;
+
+    #map-base-panel-container {
+        position: relative;
+        overflow: visible;
+        width: 2560px;
+        height: 1601px;
+        background-image: url(/Content/map/assets/base/img/Map_baseBG.jpg);
+        background-repeat: no-repeat;
+
+        #center-title-panel-wrap {
+            position: absolute;
+            top: 820px * @new-map-ratio;
+            left: 1530px * @new-map-ratio;
+            width: 840px * @new-map-ratio;
+            height: 230px * @new-map-ratio;
+            //background-color: rgba(138, 43, 226, 0.18);
+            & .center-title-panel-container {
+                #bundle .containerFill();
+                overflow: visible;
+
+                & .beyondcrisis-title {
+                    position: absolute;
+                    left: -76px * @new-map-ratio;
+                    top: 134px * @new-map-ratio;
+
+                    & .base-img {
+                        .sprite-Content-map-assets-base-img-Center_title_0002_beyond-crisis_noshadow();
+                    }
+                }
+
+                & .ian-boy {
+                    position: absolute;
+                    top: 77px * @new-map-ratio;
+                    right: -134px * @new-map-ratio;
+
+                    & .base-img {
+                        //.sprite-Content-map-assets-base-img-Center__0001_Ian();
+                    }
+                }
+
+                & .tree-stump {
+                    position: absolute;
+                    top: 119px * @new-map-ratio;
+                    right: -261px * @new-map-ratio;
+
+                    & .base-img {
+                        //.sprite-Content-map-assets-base-img-Center__0003_tree_stump();
+                    }
+                }
+
+                & .lets-get-smart-on-climate {
+                    #bundle .absolutePositionTL(273 * @new-map-ratio,391 * @new-map-ratio);
+
+                    & .base-img {
+                        .sprite-Content-map-assets-base-img-Center_title_0001_smartonclimate();
+                    }
+                }
+
+            }
+        }
+    }
+}

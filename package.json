@@ -1,0 +1,14 @@
+{
+  "name": "test-beyondcrisis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "http-server --cors=GET,POST"
+  },
+  "author": "Silvestrs Kante",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

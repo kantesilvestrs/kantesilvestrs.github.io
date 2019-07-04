@@ -1,0 +1,15 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.Content-map-assets-base-img-Center_title_0001_smartonclimate {
+/* You may have to set 'display: block' */
+	width: 520px;
+	height: 112px;
+	background: url('centertitle.png') 0 0;
+}
+.Content-map-assets-base-img-Center_title_0002_beyond-crisis_noshadow {
+/* You may have to set 'display: block' */
+	width: 653px;
+	height: 65px;
+	background: url('centertitle.png') 0 -112px;
+}

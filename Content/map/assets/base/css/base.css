@@ -1,0 +1,265 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #faf6d9;
+  font-family: Muli, 'Century Gothic', 'Gothi', Helvetica, Arial;
+}
+#view-port {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+#map-base-panel-wrap {
+  top: 50%;
+  left: 50%;
+  margin-top: -800px;
+  margin-left: -1280px;
+  position: absolute;
+  display: none;
+}
+#map-base-panel-wrap #map-base-panel-container {
+  position: relative;
+  overflow: visible;
+  width: 2560px;
+  height: 1601px;
+  background-image: url(/Content/map/assets/base/img/Map_baseBG.jpg);
+  background-repeat: no-repeat;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap {
+  position: absolute;
+  top: 548.99px;
+  left: 1024.335px;
+  width: 562.38px;
+  height: 153.985px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .beyondcrisis-title {
+  position: absolute;
+  left: -50.882px;
+  top: 89.713px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .beyondcrisis-title .base-img {
+  /* You may have to set 'display: block' */
+  width: 653px;
+  height: 65px;
+  background: url('../sprites/centertitle.png') 0 -112px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .ian-boy {
+  position: absolute;
+  top: 51.5515px;
+  right: -89.713px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .tree-stump {
+  position: absolute;
+  top: 79.6705px;
+  right: -174.7395px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .lets-get-smart-on-climate {
+  position: absolute;
+  top: 182.7735px;
+  left: 261.7745px;
+}
+#map-base-panel-wrap #map-base-panel-container #center-title-panel-wrap .center-title-panel-container .lets-get-smart-on-climate .base-img {
+  /* You may have to set 'display: block' */
+  width: 520px;
+  height: 112px;
+  background: url('../sprites/centertitle.png') 0 0;
+}

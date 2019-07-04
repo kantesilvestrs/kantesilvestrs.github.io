@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/sprite.xsd">
+  <settings>
+    <!--Determines if the sprite image should be automatically optimized after creation/update.-->
+    <optimize>false</optimize>
+    <!--Determines the orientation of images to form this sprite. The value must be vertical or horizontal.-->
+    <orientation>vertical</orientation>
+    <!--The margin (in pixel) around and between the constituent images.-->
+    <margin>1</margin>
+    <!--File extension of sprite image.-->
+    <outputType>png</outputType>
+    <!--Determine whether to generate/re-generate this sprite on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Use full path to generate unique class or mixin name in CSS, LESS and SASS files. Consider disabling this if you want class names to be filename only.-->
+    <fullPathForIdentifierName>true</fullPathForIdentifierName>
+    <!--Use absolute path in the generated CSS-like files. By default, the URLs are relative to sprite image file (and the location of CSS, LESS and SCSS).-->
+    <useAbsoluteUrl>false</useAbsoluteUrl>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+    <!--Specifies a custom subfolder to save CSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForCss />
+    <!--Specifies a custom subfolder to save LESS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForLess />
+    <!--Specifies a custom subfolder to save SCSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForScss />
+  </settings>
+  <!--The order of the <file> elements determines the order of the images in the sprite.-->
+  <files>
+    <file>/Content/map/assets/smartonclimate/img/Buildings_rightcorner_0000_Layer-1.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Buildings_rightcorner_0001_Layer-2_empty.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Buildings_rightcorner_0001_Layer-2_solarpanel.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Buildings_rightcorner_0002_Layer-2_solarpanel.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Map_base_riverWaves.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Map_base_SmartonClimate_lakeWaves1.png</file>
+    <file>/Content/map/assets/smartonclimate/img/Map_base_SmartonClimate_lakeWaves2.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0000_Buildings_leftcorner.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0001_Mountain_structures.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0002_Sun.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0003_Cyclist1.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0004_Cyclist2.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0006_Building_fat_empty.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0006_Building_fat_solarpanel.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0007_Building_Green.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0008_Buildings_center.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0009_SolarPanel_002.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0010_Building_neon.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0013_Bluebuilding.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0014_Houses4.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0015_Houses3.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0016_Houses2.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0017_BlueCar.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0019_Houses1.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0021_Electricalwires.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0021_Greenbuilding.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__0021_Yellowbuilding.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__Tunnel_bottom.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate__Tunnel_top.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_TitleTag.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_train_0000.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_train_0001.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_train_0002.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_train_0003.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_00.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_01.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_02.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_03.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_04.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_05.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_06.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_07.png</file>
+    <file>/Content/map/assets/smartonclimate/img/SmartonClimate_Tree_08.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0000_3-blades.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0001_3-windmill.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0002_2-blades.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0003_2-windmill.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0004_1-Blades.png</file>
+    <file>/Content/map/assets/smartonclimate/img/WindMill__0005_1-windmill.png</file>
+  </files>
+</sprite>

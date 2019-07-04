@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/sprite.xsd">
+  <settings>
+    <!--Determines if the sprite image should be automatically optimized after creation/update.-->
+    <optimize>false</optimize>
+    <!--Determines the orientation of images to form this sprite. The value must be vertical or horizontal.-->
+    <orientation>vertical</orientation>
+    <!--The margin (in pixel) around and between the constituent images.-->
+    <margin>1</margin>
+    <!--File extension of sprite image.-->
+    <outputType>png</outputType>
+    <!--Determine whether to generate/re-generate this sprite on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Use full path to generate unique class or mixin name in CSS, LESS and SASS files. Consider disabling this if you want class names to be filename only.-->
+    <fullPathForIdentifierName>true</fullPathForIdentifierName>
+    <!--Use absolute path in the generated CSS-like files. By default, the URLs are relative to sprite image file (and the location of CSS, LESS and SCSS).-->
+    <useAbsoluteUrl>false</useAbsoluteUrl>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+    <!--Specifies a custom subfolder to save CSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForCss />
+    <!--Specifies a custom subfolder to save LESS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForLess />
+    <!--Specifies a custom subfolder to save SCSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForScss />
+  </settings>
+  <!--The order of the <file> elements determines the order of the images in the sprite.-->
+  <files>
+    <file>/Content/map/assets/credits/img/credits_buildings_0000_Layer-2.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0001_Layer-3.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0002_Layer-4.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0003_Layer-5.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0004_Layer-6.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0005_Layer-7.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0006_Layer-8.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0007_Layer-9.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0007_Layer-b.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0008_Layer-10.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0009_Layer-11.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0010_Layer-12.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_0011_Layer-13.png</file>
+    <file>/Content/map/assets/credits/img/credits_buildings_bellwoods.png</file>
+    <file>/Content/map/assets/credits/img/Credits_CITY_tag.png</file>
+    <file>/Content/map/assets/credits/img/credits_houses_0000_Layer-1.png</file>
+    <file>/Content/map/assets/credits/img/credits_houses_0001_Layer-2.png</file>
+    <file>/Content/map/assets/credits/img/credits_houses_0002_Layer-3.png</file>
+    <file>/Content/map/assets/credits/img/credits_houses_0003_Layer-4.png</file>
+    <file>/Content/map/assets/credits/img/credits_houses_0004_Layer-5.png</file>
+    <file>/Content/map/assets/credits/img/credits_skaters_0012_Layer-14.png</file>
+    <file>/Content/map/assets/credits/img/credits_skaters_0012_Layer-14_left.png</file>
+    <file>/Content/map/assets/credits/img/credits_skaters_0013_Layer-15.png</file>
+    <file>/Content/map/assets/credits/img/credits_skaters_0013_Layer-15_left.png</file>
+    <file>/Content/map/assets/credits/img/credits_Snow.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0000_Layer-4.png</file>
+    <file>/Content/map/assets/credits/img/Credits_trees_0000_Layer-4_A.png</file>
+    <file>/Content/map/assets/credits/img/Credits_trees_0000_Layer-4_B.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0001_Layer-3.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0002_Layer-5.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0003_Layer-6.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0004_Layer-7.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0005_Layer-8.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0006_Layer-9.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0007_Layer-10.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0008_Layer-11.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0009_Layer-12.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0010_Layer-13.png</file>
+    <file>/Content/map/assets/credits/img/credits_trees_0011_Layer-14.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC1.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC1_flip.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC2.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC3.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC4.png</file>
+    <file>/Content/map/assets/credits/img/credits_TTC5.png</file>
+  </files>
+</sprite>

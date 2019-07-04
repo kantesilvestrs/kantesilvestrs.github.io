@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/sprite.xsd">
+  <settings>
+    <!--Determines if the sprite image should be automatically optimized after creation/update.-->
+    <optimize>false</optimize>
+    <!--Determines the orientation of images to form this sprite. The value must be vertical or horizontal.-->
+    <orientation>vertical</orientation>
+    <!--The margin (in pixel) around and between the constituent images.-->
+    <margin>1</margin>
+    <!--File extension of sprite image.-->
+    <outputType>png</outputType>
+    <!--Determine whether to generate/re-generate this sprite on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Use full path to generate unique class or mixin name in CSS, LESS and SASS files. Consider disabling this if you want class names to be filename only.-->
+    <fullPathForIdentifierName>true</fullPathForIdentifierName>
+    <!--Use absolute path in the generated CSS-like files. By default, the URLs are relative to sprite image file (and the location of CSS, LESS and SCSS).-->
+    <useAbsoluteUrl>false</useAbsoluteUrl>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+    <!--Specifies a custom subfolder to save CSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForCss />
+    <!--Specifies a custom subfolder to save LESS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForLess />
+    <!--Specifies a custom subfolder to save SCSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForScss />
+  </settings>
+  <!--The order of the <file> elements determines the order of the images in the sprite.-->
+  <files>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_Fish_0000_Layer-1-copy.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_Fish_0001_Layer-2-copy.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0000_Layer-2.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0001_Layer-3.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0002_Layer-4.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_River_waves_0003_Layer-5.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_waves_0000_Layer-2.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/Mapbase_waves_0001_Layer-3.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0000_ship.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0000_ship_flipped_horizontal.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0001_boat2.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0002_boat1.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0003_taxi2.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0003_taxi2_back.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0004_taxi1.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0004_taxi1_back.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM__0005_balloon.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_1_close_wings.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_1_open_wings.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_2_close_wings.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_2_open_wings.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_3_close_wings.png</file>
+    <file>/Content/map/assets/ourstory/img/small_objects/PCM_B_3_open_wings.png</file>
+  </files>
+</sprite>

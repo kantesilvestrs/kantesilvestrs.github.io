@@ -1,0 +1,340 @@
+{
+  "images": [
+    {
+      "name": "/Content/map/assets/ourstory/img/bridge_above_layer.png",
+      "width": 219,
+      "height": 185,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Main_1.png",
+      "width": 317,
+      "height": 226,
+      "offsetX": 0,
+      "offsetY": 185
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Main_2.png",
+      "width": 322,
+      "height": 234,
+      "offsetX": 0,
+      "offsetY": 411
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Main_3.png",
+      "width": 321,
+      "height": 224,
+      "offsetX": 0,
+      "offsetY": 645
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Main_4.png",
+      "width": 56,
+      "height": 62,
+      "offsetX": 0,
+      "offsetY": 869
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Topline_1.png",
+      "width": 102,
+      "height": 96,
+      "offsetX": 0,
+      "offsetY": 931
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Topline_2.png",
+      "width": 121,
+      "height": 81,
+      "offsetX": 0,
+      "offsetY": 1027
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/March_Topline_3.png",
+      "width": 121,
+      "height": 74,
+      "offsetX": 0,
+      "offsetY": 1108
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Building2.png",
+      "width": 31,
+      "height": 97,
+      "offsetX": 0,
+      "offsetY": 1182
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Building4.png",
+      "width": 65,
+      "height": 99,
+      "offsetX": 0,
+      "offsetY": 1279
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Building6.png",
+      "width": 39,
+      "height": 180,
+      "offsetX": 0,
+      "offsetY": 1378
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings1.png",
+      "width": 72,
+      "height": 113,
+      "offsetX": 0,
+      "offsetY": 1558
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_buildings2.png",
+      "width": 79,
+      "height": 113,
+      "offsetX": 0,
+      "offsetY": 1671
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings3.png",
+      "width": 99,
+      "height": 193,
+      "offsetX": 0,
+      "offsetY": 1784
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings5.png",
+      "width": 106,
+      "height": 191,
+      "offsetX": 0,
+      "offsetY": 1977
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings5_0000_Layer-1.png",
+      "width": 50,
+      "height": 152,
+      "offsetX": 0,
+      "offsetY": 2168
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings5_0001_Layer-2.png",
+      "width": 62,
+      "height": 153,
+      "offsetX": 0,
+      "offsetY": 2320
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Buildings7.png",
+      "width": 86,
+      "height": 164,
+      "offsetX": 0,
+      "offsetY": 2473
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Chrysler.png",
+      "width": 104,
+      "height": 303,
+      "offsetX": 0,
+      "offsetY": 2637
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_EmpireState.png",
+      "width": 79,
+      "height": 268,
+      "offsetX": 0,
+      "offsetY": 2940
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_GreenBuilding7.png",
+      "width": 44,
+      "height": 112,
+      "offsetX": 0,
+      "offsetY": 3208
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_houses_0000_Layer-0.png",
+      "width": 83,
+      "height": 108,
+      "offsetX": 0,
+      "offsetY": 3320
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_houses_0001_Layer-2.png",
+      "width": 67,
+      "height": 82,
+      "offsetX": 0,
+      "offsetY": 3428
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_houses0.png",
+      "width": 51,
+      "height": 64,
+      "offsetX": 0,
+      "offsetY": 3510
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Houses1.png",
+      "width": 112,
+      "height": 103,
+      "offsetX": 0,
+      "offsetY": 3574
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Houses2.png",
+      "width": 111,
+      "height": 118,
+      "offsetX": 0,
+      "offsetY": 3677
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Houses3.png",
+      "width": 77,
+      "height": 45,
+      "offsetX": 0,
+      "offsetY": 3795
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Houses4_0000_Layer-0.png",
+      "width": 69,
+      "height": 90,
+      "offsetX": 0,
+      "offsetY": 3840
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Houses4_0001_Layer-2.png",
+      "width": 63,
+      "height": 74,
+      "offsetX": 0,
+      "offsetY": 3930
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_LampPost1.png",
+      "width": 15,
+      "height": 39,
+      "offsetX": 0,
+      "offsetY": 4004
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_LampPost2.png",
+      "width": 15,
+      "height": 39,
+      "offsetX": 0,
+      "offsetY": 4043
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_LampPost3.png",
+      "width": 15,
+      "height": 39,
+      "offsetX": 0,
+      "offsetY": 4082
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Shop.png",
+      "width": 53,
+      "height": 58,
+      "offsetX": 0,
+      "offsetY": 4121
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_StatueofLiberty.png",
+      "width": 64,
+      "height": 148,
+      "offsetX": 0,
+      "offsetY": 4179
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_Title_tag.png",
+      "width": 586,
+      "height": 138,
+      "offsetX": 0,
+      "offsetY": 4327
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_00_0000_Layer-1.png",
+      "width": 405,
+      "height": 62,
+      "offsetX": 0,
+      "offsetY": 4465
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_00_0001_Layer-2.png",
+      "width": 72,
+      "height": 58,
+      "offsetX": 0,
+      "offsetY": 4527
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_01_0000_Layer-1.png",
+      "width": 94,
+      "height": 75,
+      "offsetX": 0,
+      "offsetY": 4585
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_01_0001_Layer-2.png",
+      "width": 31,
+      "height": 41,
+      "offsetX": 0,
+      "offsetY": 4660
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_01_0002_Layer-3.png",
+      "width": 44,
+      "height": 43,
+      "offsetX": 0,
+      "offsetY": 4701
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_01_0003_Layer-4.png",
+      "width": 29,
+      "height": 44,
+      "offsetX": 0,
+      "offsetY": 4744
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_02_0000_Layer-1.png",
+      "width": 242,
+      "height": 48,
+      "offsetX": 0,
+      "offsetY": 4788
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_02_0001_Layer-2.png",
+      "width": 159,
+      "height": 76,
+      "offsetX": 0,
+      "offsetY": 4836
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_03_0000_Layer-1.png",
+      "width": 31,
+      "height": 45,
+      "offsetX": 0,
+      "offsetY": 4912
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_03_0001_Layer-2.png",
+      "width": 191,
+      "height": 107,
+      "offsetX": 0,
+      "offsetY": 4957
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_04_0000_Layer-1.png",
+      "width": 32,
+      "height": 45,
+      "offsetX": 0,
+      "offsetY": 5064
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_04_0001_Layer-2.png",
+      "width": 32,
+      "height": 45,
+      "offsetX": 0,
+      "offsetY": 5109
+    },
+    {
+      "name": "/Content/map/assets/ourstory/img/PCM_trees_05.png",
+      "width": 87,
+      "height": 78,
+      "offsetX": 0,
+      "offsetY": 5154
+    }
+  ]
+}

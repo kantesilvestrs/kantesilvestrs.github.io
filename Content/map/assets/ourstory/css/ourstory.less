@@ -1,0 +1,865 @@
+﻿@import "../../../../client/css/base.less";
+@import "../sprites/ourstory.png.less";
+@import "../sprites/ourstory_small.png.less";
+
+body {
+}
+
+#ourstory-panel-wrap {
+    @new-map-ratio: 0.6695;
+    position: absolute;
+    width: 1600px * @new-map-ratio;
+    height: 1460px * @new-map-ratio;
+    bottom: -173px * @new-map-ratio;
+    left: -50px * @new-map-ratio;
+    display: none;
+    cursor: pointer;
+
+
+    & .bridge-overlay {
+        position: absolute;
+        right: 697px * @new-map-ratio;
+        top: -252px * @new-map-ratio;
+        z-index: 200;
+
+        & .base-img {
+            #bundle .transform(scale(0.70));
+            .sprite-Content-map-assets-ourstory-img-bridge_above_layer();
+        }
+    }
+
+    & #ourstory-panel-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /*#region Large objects*/
+        /*#region buildings*/
+        & .pcm-building-2 {
+            position: absolute;
+            right: 110px * @new-map-ratio;
+            top: 575px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Building2();
+            }
+        }
+
+        & .pcm-building-4 {
+            position: absolute;
+            right: 350px * @new-map-ratio;
+            top: 545px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Building4();
+            }
+        }
+
+        & .pcm-building-6 {
+            position: absolute;
+            right: 640px * @new-map-ratio;
+            top: -195px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Building6();
+            }
+        }
+
+        & .pcm-buildings-1 {
+            position: absolute;
+            right: -60px * @new-map-ratio;
+            top: 270px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Buildings1();
+            }
+        }
+
+        & .pcm-buildings-2 {
+            position: absolute;
+            right: 190px * @new-map-ratio;
+            top: 510px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_buildings2();
+            }
+        }
+
+        & .pcm-buildings-3 {
+            position: absolute;
+            right: 255px * @new-map-ratio;
+            top: 395px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Buildings3();
+            }
+        }
+
+        & .pcm-buildings-5-layer-1 {
+            position: absolute;
+            right: 750px * @new-map-ratio;
+            top: 375px * @new-map-ratio;
+            z-index: 6;
+
+            & .base-img {
+                //.sprite-Content-map-assets-ourstory-img-PCM_Buildings5_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_Buildings5_0000_Layer-1();
+            }
+        }
+
+        & .pcm-buildings-5-layer-2 {
+            position: absolute;
+            right: 802px * @new-map-ratio;
+            top: 322px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                // .sprite-Content-map-assets-ourstory-img-PCM_Buildings5_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_Buildings5_0001_Layer-2();
+            }
+        }
+
+        & .pcm-buildings-7 {
+            position: absolute;
+            right: 814px * @new-map-ratio;
+            top: -13px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Buildings7();
+            }
+        }
+
+        & .pcm-chrysler {
+            position: absolute;
+            right: 955px * @new-map-ratio;
+            top: -12px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Chrysler();
+            }
+        }
+
+        & .pcm-empire-state {
+            position: absolute;
+            right: 370px * @new-map-ratio;
+            top: -375px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_EmpireState();
+            }
+        }
+
+        & .pcm-green-building-7 {
+            position: absolute;
+            right: 580px * @new-map-ratio;
+            top: -155px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_GreenBuilding7();
+            }
+        }
+        /*#endregion*/
+        /* #region top houses displayed in a line */
+        & .pcm-houses-1-layer-1 {
+            position: absolute;
+            right: 715px * @new-map-ratio;
+            top: 105px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_houses0_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_houses_0000_Layer-0();
+            }
+        }
+
+        & .pcm-houses-1-layer-2 {
+            position: absolute;
+            right: 640px * @new-map-ratio;
+            top: 85px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_houses1_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_houses_0001_Layer-2();
+            }
+        }
+
+        & .pcm-houses-2-layer-1 {
+            position: absolute;
+            right: 559px * @new-map-ratio;
+            top: 23px * @new-map-ratio;
+            z-index: 2;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_Houses4_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_Houses4_0000_Layer-0();
+            }
+        }
+
+        & .pcm-houses-2-layer-2 {
+            position: absolute;
+            right: 485px * @new-map-ratio;
+            top: -8px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_Houses4_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_Houses4_0001_Layer-2();
+            }
+        }
+        /* #endregion */
+        /* #region houses */
+        & .pcm-houses-0 {
+            position: absolute;
+            right: 570px * @new-map-ratio;
+            top: 540px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_houses0();
+            }
+        }
+
+        & .pcm-houses-1 {
+            position: absolute;
+            right: 43px * @new-map-ratio;
+            top: 413px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Houses1();
+            }
+        }
+
+        & .pcm-houses-2 {
+            position: absolute;
+            right: -90px * @new-map-ratio;
+            top: 440px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Houses2();
+            }
+        }
+
+        & .pcm-houses-3 {
+            position: absolute;
+            right: 615px * @new-map-ratio;
+            top: 540px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Houses3();
+            }
+        }
+        /* #endregion */
+        /* #region pcm-lamp-post */
+        & .pcm-lamp-post-1 {
+            position: absolute;
+            right: 510px * @new-map-ratio;
+            top: 540px * @new-map-ratio;
+            z-index: 2;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_LampPost1();
+            }
+        }
+
+        & .pcm-lamp-post-2 {
+            position: absolute;
+            right: 238px * @new-map-ratio;
+            top: 151px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_LampPost2();
+            }
+        }
+
+        & .pcm-lamp-post-3 {
+            position: absolute;
+            right: 225px * @new-map-ratio;
+            top: 460px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_LampPost3();
+            }
+        }
+        /* #endregion */
+        /* #region pcm-lamp-march */
+        //main march line
+        & .pcm-lamp-march-main-1 {
+            position: absolute;
+            right: 472px * @new-map-ratio;
+            top: 50px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Main_1();
+            }
+        }
+
+        & .pcm-lamp-march-main-2 {
+            position: absolute;
+            right: 445px * @new-map-ratio;
+            top: 50px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Main_2();
+            }
+        }
+
+        & .pcm-lamp-march-main-3 {
+            position: absolute;
+            right: 415px * @new-map-ratio;
+            top: 50px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Main_3();
+            }
+        }
+
+        & .pcm-lamp-march-main-4 {
+            position: absolute;
+            right: 825px * @new-map-ratio;
+            top: 300px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Main_4();
+            }
+        }
+        //top line
+        & .pcm-lamp-march-topline-1 {
+            position: absolute;
+            right: 280px * @new-map-ratio;
+            top: 47px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Topline_1();
+            }
+        }
+
+        & .pcm-lamp-march-topline-2 {
+            position: absolute;
+            right: 230px * @new-map-ratio;
+            top: 55px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Topline_2();
+            }
+        }
+
+        & .pcm-lamp-march-topline-3 {
+            position: absolute;
+            right: 245px * @new-map-ratio;
+            top: 55px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-March_Topline_3();
+            }
+        }
+        /* #endregion */
+        /* #region other */
+        & .pcm-shop {
+            position: absolute;
+            right: 700px * @new-map-ratio;
+            top: 20px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Shop();
+            }
+        }
+
+        & .pcm-statue-of-liberty {
+            position: absolute;
+            right: 1350px * @new-map-ratio;
+            top: 60px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_StatueofLiberty();
+            }
+        }
+
+        & .pcm-title-tag {
+            position: absolute;
+            right: -90px * @new-map-ratio;
+            top: 170px * @new-map-ratio;
+            z-index: 10;
+            display: none;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_Title_tag();
+            }
+        }
+        /*#endregion*/
+        /*#region Trees*/
+        & .pcm-trees-1-layer-2 {
+            position: absolute;
+            right: 623px * @new-map-ratio;
+            top: 560px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_00_0001_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_00_0001_Layer-2();
+            }
+        }
+
+        & .pcm-trees-1-layer-1 {
+            position: absolute;
+            right: 435px * @new-map-ratio;
+            top: 343px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0000_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0000_Layer-1();
+            }
+        }
+
+        & .pcm-trees-2-layer-2 {
+            position: absolute;
+            right: 422px * @new-map-ratio;
+            top: 443px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0001_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0001_Layer-2();
+            }
+        }
+
+        & .pcm-trees-2-layer-3 {
+            position: absolute;
+            right: 595px * @new-map-ratio;
+            top: 399px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0002_Layer_3();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0002_Layer-3();
+            }
+        }
+
+        & .pcm-trees-2-layer-4 {
+            position: absolute;
+            right: 485px * @new-map-ratio;
+            top: 493px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_trees_01_0003_Layer_4();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_01_0003_Layer-4();
+            }
+        }
+
+        & .pcm-trees-3-layer-1 {
+            position: absolute;
+            right: -131px * @new-map-ratio;
+            top: 358px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_trees_02_0000_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_02_0000_Layer-1();
+            }
+        }
+
+        & .pcm-trees-3-layer-2 {
+            position: absolute;
+            right: 74px * @new-map-ratio;
+            top: 208px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_02_0001_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_02_0001_Layer-2();
+            }
+        }
+
+        & .pcm-trees-4-layer-1 {
+            position: absolute;
+            right: 322px * @new-map-ratio;
+            top: -4px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_03_0000_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_03_0000_Layer-1();
+            }
+        }
+
+        & .pcm-trees-4-layer-2 {
+            position: absolute;
+            right: 324px * @new-map-ratio;
+            top: 69px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                //.sprite-Content-map-assets-ourstory-img-PCM_trees_03_0001_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_03_0001_Layer-2();
+            }
+        }
+
+        & .pcm-trees-5-layer-1 {
+            position: absolute;
+            right: 1030px * @new-map-ratio;
+            top: 348px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_04_0000_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_04_0000_Layer-1();
+            }
+        }
+
+        & .pcm-trees-5-layer-2 {
+            position: absolute;
+            right: 930px * @new-map-ratio;
+            top: 232px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_04_0001_Layer_2();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_04_0001_Layer-2();
+            }
+        }
+
+        & .pcm-trees-0-layer-1 {
+            position: absolute;
+            right: 60px * @new-map-ratio;
+            top: 652px * @new-map-ratio;
+            z-index: 3;
+
+            & .base-img {
+                //class is named differently to be more easier to understand
+                // .sprite-Content-map-assets-ourstory-img-PCM_trees_0_Layer_1();
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_00_0000_Layer-1();
+            }
+        }
+
+        & .pcm-trees-5 {
+            position: absolute;
+            right: 673px * @new-map-ratio;
+            top: 200px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-PCM_trees_05();
+            }
+        }
+        /*#endregion*/
+        /*#endregion */
+        /*#region Small objects*/
+        /*#region Birds*/
+        /*Open wings*/
+        & .pcm_b_1_open_wings {
+            position: absolute;
+            right: 112px * @new-map-ratio;
+            top: 149px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_1_open_wings();
+                background-repeat: no-repeat;
+            }
+        }
+
+        & .pcm_b_2_open_wings {
+            position: absolute;
+            right: 93px * @new-map-ratio;
+            top: 170px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_2_open_wings();
+                background-repeat: no-repeat;
+            }
+        }
+
+        & .pcm_b_3_open_wings {
+            position: absolute;
+            right: 63px * @new-map-ratio;
+            top: 150px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_3_open_wings();
+                background-repeat: no-repeat;
+            }
+        }
+        /*Close wings*/
+        & .pcm_b_1_close_wings {
+            position: absolute;
+            right: 113px * @new-map-ratio;
+            top: 140px * @new-map-ratio;
+            z-index: 5;
+            /*border:1px solid blue;*/
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_1_close_wings();
+                background-repeat: no-repeat;
+            }
+        }
+
+        & .pcm_b_2_close_wings {
+            position: absolute;
+            right: 93px * @new-map-ratio;
+            top: 170px * @new-map-ratio;
+            z-index: 5;
+            /*border:1px solid green;*/
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_2_close_wings();
+                background-repeat: no-repeat;
+            }
+        }
+
+        & .pcm_b_3_close_wings {
+            position: absolute;
+            right: 63px * @new-map-ratio;
+            top: 150px * @new-map-ratio;
+            z-index: 5;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM_B_3_close_wings();
+                background-repeat: no-repeat;
+            }
+        }
+        /*#endregion*/
+        /*#region Cars*/
+        & .pcm_taxi1 {
+            position: absolute;
+            right: 653px * @new-map-ratio;
+            top: 475px * @new-map-ratio;
+            z-index: 2;
+        }
+
+        & .pcm_taxi2 {
+            position: absolute;
+            right: 553px * @new-map-ratio;
+            top: 640px * @new-map-ratio;
+            z-index: 1;
+        }
+        //bottom right
+        & .pcm__0004_taxi1 {
+            position: absolute;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0004_taxi1();
+            }
+        }
+        //bottom left
+        & .pcm__0003_taxi2 {
+            position: absolute;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0003_taxi2();
+            }
+        }
+        //top right
+        & .pcm__taxi-top-right {
+            position: absolute;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0003_taxi2_back();
+            }
+        }
+        //top left
+        & .pcm__taxi-top-left {
+            position: absolute;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0004_taxi1_back();
+            }
+        }
+
+        & #ourstory-taxi1-person-container {
+            position: absolute;
+            width: 40px;
+            height: 30px;
+            z-index: 2;
+        }
+
+        & .on-way {
+            top: 550px * @new-map-ratio;
+            right: 5px * @new-map-ratio;
+        }
+
+        & .arrived {
+            top: 145px * @new-map-ratio;
+            right: 170px * @new-map-ratio;
+        }
+
+        & #ourstory-taxi1-person-1 {
+            position: absolute;
+            left: 1px * @new-map-ratio;
+            top: 2px * @new-map-ratio;
+        }
+
+        & #ourstory-taxi1-person-2 {
+            position: absolute;
+            left: 7px * @new-map-ratio;
+            top: 2px * @new-map-ratio;
+        }
+
+        & #ourstory-taxi1-person-3 {
+            position: absolute;
+            left: 17px * @new-map-ratio;
+            top: 5px * @new-map-ratio;
+        }
+
+        & #ourstory-taxi1-person-4 {
+            position: absolute;
+            left: 24px * @new-map-ratio;
+            top: 1px * @new-map-ratio;
+        }
+        /*#endregion*/
+        /*#region Boats*/
+        & .pcm__0002_boat1 {
+            position: absolute;
+            right: 1363px * @new-map-ratio;
+            top: 489px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0002_boat1();
+            }
+        }
+
+        & .pcm__0001_boat2 {
+            position: absolute;
+            right: 1153px * @new-map-ratio;
+            top: 663px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0001_boat2();
+            }
+        }
+
+        & .pcm__0000_ship {
+            position: absolute;
+            right: 1043px * @new-map-ratio;
+            top: 670px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0000_ship();
+            }
+        }
+
+        & .pcm__0000_ship_flip_horizontaly {
+            position: absolute;
+            right: 1043px * @new-map-ratio;
+            top: 670px * @new-map-ratio;
+            z-index: 1;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0000_ship_flipped_horizontal();
+            }
+        }
+        /*#endregion*/
+
+
+
+        /*#region River*/
+
+        & .map-base-fish-layer1 {
+            position:absolute;
+            top:-310px * @new-map-ratio;
+            left:1100px * @new-map-ratio;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_Fish_0000_Layer-1-copy();
+            }
+        }
+        & .map-base-fish-layer2 {
+            position:absolute;
+            top:-280px * @new-map-ratio;
+            left:1080px * @new-map-ratio;
+
+            & .base-img {
+               .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_Fish_0001_Layer-2-copy();
+            }
+        }
+        & .map-base-waves-0000-layer2{
+            position:absolute;
+            top:-40px * @new-map-ratio;
+            left:400px * @new-map-ratio;
+
+            & .base-img {
+               .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0000_Layer-2();
+            }
+        }
+        & .map-base-waves-mid-river{
+            position:absolute;
+            top:-600px * @new-map-ratio;
+            left:1400px * @new-map-ratio;
+
+            & .base-img {
+               .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0003_Layer-5();
+            }
+        }
+        & .map-base-waves-0001-layer3{
+            position:absolute;
+            top:-150px * @new-map-ratio;
+            left:860px * @new-map-ratio;
+
+            & .base-img {
+               .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0001_Layer-3();
+            }
+        }
+        & .map-base-waves-0002-layer4{
+            position:absolute;
+            top:-920px * @new-map-ratio;
+            left:1970px * @new-map-ratio;
+
+            & .base-img {
+               .sprite-Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0002_Layer-4();
+            }
+        }
+
+
+        /*#endregion*/
+
+
+
+        & .pcm__0005_balloon {
+            position: absolute;
+            right: 270px * @new-map-ratio;
+            top: 70px * @new-map-ratio;
+            z-index: 4;
+
+            & .base-img {
+                .sprite-Content-map-assets-ourstory-img-small_objects-PCM__0005_balloon();
+            }
+        }
+        /*#endregion*/
+    }
+}

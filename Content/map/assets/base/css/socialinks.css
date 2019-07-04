@@ -1,0 +1,366 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #faf6d9;
+  font-family: Muli, 'Century Gothic', 'Gothi', Helvetica, Arial;
+}
+#view-port {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#social-link-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 245px;
+  height: 40px;
+  z-index: 90;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#social-link-wrap.social-link-opp .social-link-container .camera-donations .info-baloon {
+  left: -140px !important;
+}
+#social-link-wrap.social-link-opp .social-link-container .camera-donations .info-baloon img.tail {
+  -webkit-transform: rotateY(-180deg) rotateX(180deg);
+  -moz-transform: rotateY(-180deg) rotateX(180deg);
+  -o-transform: rotateY(-180deg) rotateX(180deg);
+  -ms-transform: rotateY(-180deg) rotateX(180deg);
+  transform: rotateY(-180deg) rotateX(180deg);
+  left: 300px !important;
+}
+#social-link-wrap.social-link-opp .social-link-container .email-hover .info-baloon {
+  left: -220px !important;
+}
+#social-link-wrap.social-link-opp .social-link-container .email-hover .info-baloon img.tail {
+  -webkit-transform: rotateY(-180deg) rotateX(180deg);
+  -moz-transform: rotateY(-180deg) rotateX(180deg);
+  -o-transform: rotateY(-180deg) rotateX(180deg);
+  -ms-transform: rotateY(-180deg) rotateX(180deg);
+  transform: rotateY(-180deg) rotateX(180deg);
+  left: 200px !important;
+}
+#social-link-wrap .social-link-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+#social-link-wrap .social-link-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#social-link-wrap .social-link-container ul li {
+  display: inline-block;
+}
+#social-link-wrap .social-link-container ul li .social-link {
+  text-decoration: none;
+}
+#social-link-wrap .social-link-container ul li .social-link.social-link-hover {
+  color: inherit;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon {
+  display: none;
+  position: absolute;
+  background-image: url(/Content/map/assets/facesofclimate/img/baloon_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  -webkit-border-top-left-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  -moz-border-radius-bottomright: 30px;
+  -moz-border-radius-bottomleft: 30px;
+  -moz-border-radius-topleft: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon img.tail {
+  position: absolute;
+  top: -38px;
+  left: 60px;
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  float: left;
+  *zoom: 1;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content:before,
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content:after {
+  clear: both;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content p.text {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+#social-link-wrap .social-link-container ul li .social-link div .info-baloon .content .link {
+  text-align: center;
+  font-size: 19px;
+  margin-left: -10px;
+  margin-top: 18px;
+}
+#social-link-wrap .social-link-container ul li .social-link .camera-donations .info-baloon {
+  position: absolute;
+  top: 70px;
+  left: 160px;
+  width: 327px;
+  height: 110px;
+  padding: 20px;
+}
+#social-link-wrap .social-link-container ul li .social-link .email-hover .info-baloon {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 250px;
+  height: 25px;
+  padding: 20px;
+}
+#social-link-wrap .social-link-container ul li .social-link .email-hover .info-baloon img.tail {
+  position: absolute;
+  top: -38px;
+  left: 30px;
+}
+#social-link-wrap .social-link-container ul li .social-link .base-img {
+  height: 40px;
+  margin: 0 2px;
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  -webkit-opacity: 0.6;
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+  filter: alpha(opacity=60);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#social-link-wrap .social-link-container ul li .social-link .base-img:hover {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}

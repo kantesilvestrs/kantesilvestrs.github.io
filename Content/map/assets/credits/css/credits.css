@@ -1,0 +1,777 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #faf6d9;
+  font-family: Muli, 'Century Gothic', 'Gothi', Helvetica, Arial;
+}
+#view-port {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+#credits-panel-wrap {
+  position: absolute;
+  top: 856.96px;
+  left: 1571.986px;
+  width: 903.825px;
+  height: 718.3735px;
+  overflow: visible;
+  cursor: pointer;
+  display: none;
+}
+#credits-panel-wrap .credits-panel-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+#credits-panel-wrap .credits-panel-container .title-tag {
+  position: absolute;
+  top: 133.9px;
+  left: 133.9px;
+}
+#credits-panel-wrap .credits-panel-container .title-tag .base-img {
+  /* You may have to set 'display: block' */
+  width: 173px;
+  height: 110px;
+  background: url('../sprites/credits.png') -1px -1845px;
+}
+#credits-panel-wrap .credits-panel-container .top-left-group-buildings-7-layer-9 {
+  position: absolute;
+  top: -46.1955px;
+  left: 509.4895px;
+}
+#credits-panel-wrap .credits-panel-container .top-left-group-buildings-7-layer-9 .base-img {
+  /* You may have to set 'display: block' */
+  width: 99px;
+  height: 90px;
+  background: url('../sprites/credits.png') -1px -1134px;
+}
+#credits-panel-wrap .credits-panel-container .top-left-group-buildings-7-layer-b {
+  position: absolute;
+  top: 9.373px;
+  left: 602.55px;
+}
+#credits-panel-wrap .credits-panel-container .top-left-group-buildings-7-layer-b .base-img {
+  /* You may have to set 'display: block' */
+  width: 91px;
+  height: 38px;
+  background: url('../sprites/credits.png') -1px -1225px;
+}
+#credits-panel-wrap .credits-panel-container .skater-with-red-jemper {
+  position: absolute;
+  top: 49.543px;
+  left: 600.5415px;
+  z-index: 10;
+}
+#credits-panel-wrap .credits-panel-container .red-facing-right .base-img {
+  /* You may have to set 'display: block' */
+  width: 15px;
+  height: 30px;
+  background: url('../sprites/credits.png') -1px -2277px;
+}
+#credits-panel-wrap .credits-panel-container .red-facing-left .base-img {
+  /* You may have to set 'display: block' */
+  width: 15px;
+  height: 30px;
+  background: url('../sprites/credits.png') -1px -2308px;
+}
+#credits-panel-wrap .credits-panel-container .skater-with-purple-jemper {
+  position: absolute;
+  top: 43.5175px;
+  left: 617.9485px;
+}
+#credits-panel-wrap .credits-panel-container .purple-facing-right .base-img {
+  /* You may have to set 'display: block' */
+  width: 19px;
+  height: 25px;
+  background: url('../sprites/credits.png') -1px -2339px;
+}
+#credits-panel-wrap .credits-panel-container .purple-facing-left .base-img {
+  /* You may have to set 'display: block' */
+  width: 19px;
+  height: 25px;
+  background: url('../sprites/credits.png') -1px -2365px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-buildings-9-layer-11 {
+  position: absolute;
+  top: -104.442px;
+  left: 715.026px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-buildings-9-layer-11 .base-img {
+  /* You may have to set 'display: block' */
+  width: 57px;
+  height: 193px;
+  background: url('../sprites/credits.png') -1px -1489px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-buildings-5-layer-7 {
+  position: absolute;
+  top: -51.5515px;
+  left: 806.7475px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-buildings-5-layer-7 .base-img {
+  /* You may have to set 'display: block' */
+  width: 48px;
+  height: 157px;
+  background: url('../sprites/credits.png') -1px -840px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-0-layer-4-B {
+  position: absolute;
+  top: 60.9245px;
+  left: 634.0165px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-0-layer-4-B .base-img {
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 38px;
+  background: url('../sprites/credits.png') -1px -3222px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-0-layer-4-A {
+  position: absolute;
+  top: 83.6875px;
+  left: 569.075px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-0-layer-4-A .base-img {
+  /* You may have to set 'display: block' */
+  width: 36px;
+  height: 40px;
+  background: url('../sprites/credits.png') -1px -3181px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-10-layer-12 {
+  position: absolute;
+  top: 103.103px;
+  left: 725.738px;
+}
+#credits-panel-wrap .credits-panel-container .top-right-group-treesandpoles-10-layer-12 .base-img {
+  /* You may have to set 'display: block' */
+  width: 10px;
+  height: 46px;
+  background: url('../sprites/credits.png') -1px -1683px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-buildings-6-layer-8 {
+  position: absolute;
+  top: -5.356px;
+  left: 328.7245px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-buildings-6-layer-8 .base-img {
+  /* You may have to set 'display: block' */
+  width: 26px;
+  height: 135px;
+  background: url('../sprites/credits.png') -1px -998px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-buildings-8-layer-10 {
+  position: absolute;
+  top: -9.373px;
+  left: 370.2335px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-buildings-8-layer-10 .base-img {
+  /* You may have to set 'display: block' */
+  width: 95px;
+  height: 224px;
+  background: url('../sprites/credits.png') -1px -1264px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-streetcars-ttc-1 {
+  position: absolute;
+  top: 92.391px;
+  left: 435.175px;
+  z-index: 150;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-streetcar-ttc-2 {
+  z-index: 150;
+  position: absolute;
+  top: 252.4015px;
+  left: 461.2855px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-top-right .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 75px;
+  height: 77px;
+  background: url('../sprites/credits.png') -1px -4177px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-mid-right .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 93px;
+  height: 78px;
+  background: url('../sprites/credits.png') -1px -3934px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-mid-left .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 80px;
+  height: 56px;
+  background: url('../sprites/credits.png') -1px -4013px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-bottom-left .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 75px;
+  height: 106px;
+  background: url('../sprites/credits.png') -1px -4070px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-right .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 95px;
+  height: 60px;
+  background: url('../sprites/credits.png') -1px -4255px;
+}
+#credits-panel-wrap .credits-panel-container .streetcar-left .base-img {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  /* You may have to set 'display: block' */
+  width: 95px;
+  height: 60px;
+  background: url('../sprites/credits.png') -1px -4316px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-houses-1-layer-2 {
+  position: absolute;
+  top: 212.2315px;
+  left: 399.6915px;
+  z-index: 140;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-houses-1-layer-2 .base-img {
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  /* You may have to set 'display: block' */
+  width: 57px;
+  height: 79px;
+  background: url('../sprites/credits.png') -1px -2197px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-houses-4-layer-5 {
+  position: absolute;
+  top: 244.3675px;
+  left: 371.5725px;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  z-index: 144;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-houses-4-layer-5 .base-img {
+  /* You may have to set 'display: block' */
+  width: 57px;
+  height: 79px;
+  background: url('../sprites/credits.png') -1px -2197px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-trees-3-layer-6 {
+  position: absolute;
+  top: 259.766px;
+  left: 233.6555px;
+}
+#credits-panel-wrap .credits-panel-container .mid-left-group-trees-3-layer-6 .base-img {
+  /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 38px;
+  background: url('../sprites/credits.png') -1px -3222px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-4-layer-6 {
+  position: absolute;
+  top: -1.339px;
+  left: 757.874px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-4-layer-6 .base-img {
+  /* You may have to set 'display: block' */
+  width: 58px;
+  height: 245px;
+  background: url('../sprites/credits.png') -1px -594px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-3-layer-5 {
+  position: absolute;
+  top: 170.7225px;
+  left: 709.67px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-3-layer-5 .base-img {
+  /* You may have to set 'display: block' */
+  width: 45px;
+  height: 121px;
+  background: url('../sprites/credits.png') -1px -472px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-2-layer-4 {
+  position: absolute;
+  top: 85.0265px;
+  left: 668.8305px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-2-layer-4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 36px;
+  height: 137px;
+  background: url('../sprites/credits.png') -1px -334px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-1-layer-3 {
+  position: absolute;
+  top: 106.4505px;
+  left: 620.6265px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-1-layer-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 50px;
+  height: 189px;
+  background: url('../sprites/credits.png') -1px -144px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-bellwoods {
+  position: absolute;
+  top: 210.8925px;
+  left: 488.0655px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-buildings-bellwoods .base-img {
+  /* You may have to set 'display: block' */
+  width: 75px;
+  height: 73px;
+  background: url('../sprites/credits.png') -1px -1771px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-1-layer-3 {
+  position: absolute;
+  top: 180.765px;
+  left: 814.7815px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-1-layer-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 25px;
+  background: url('../sprites/credits.png') -1px -3261px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-2-layer-5-alt0_4_B {
+  position: absolute;
+  top: 176.748px;
+  left: 482.7095px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-2-layer-5-alt0_4_B .base-img {
+  /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 38px;
+  background: url('../sprites/credits.png') -1px -3222px;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-2-layer-5-alt1_3 {
+  position: absolute;
+  top: 235.664px;
+  left: 453.2515px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .mid-right-group-trees-2-layer-5-alt1_3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 25px;
+  background: url('../sprites/credits.png') -1px -3261px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-houses-0-layer-1 {
+  position: absolute;
+  top: 286.546px;
+  left: 201.5195px;
+  z-index: 201;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-houses-0-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 64px;
+  height: 54px;
+  background: url('../sprites/credits.png') -1px -1956px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-houses-3-layer-4 {
+  position: absolute;
+  top: 304.6225px;
+  left: 239.681px;
+  z-index: 202;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-houses-3-layer-4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 64px;
+  height: 50px;
+  background: url('../sprites/credits.png') -1px -2146px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-10-layer-13 {
+  position: absolute;
+  top: 330.733px;
+  left: 269.8085px;
+  z-index: 203;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-10-layer-13 .base-img {
+  /* You may have to set 'display: block' */
+  width: 44px;
+  height: 76px;
+  background: url('../sprites/credits.png') -1px -3766px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-11-layer-14 {
+  position: absolute;
+  top: 405.717px;
+  left: 283.1985px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-11-layer-14 .base-img {
+  /* You may have to set 'display: block' */
+  width: 115px;
+  height: 90px;
+  background: url('../sprites/credits.png') -1px -3843px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-4-layer-7 {
+  position: absolute;
+  top: 494.091px;
+  left: 159.341px;
+}
+#credits-panel-wrap .credits-panel-container .bot-left-group-trees-4-layer-7 .base-img {
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 37px;
+  background: url('../sprites/credits.png') -1px -3412px;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-1 {
+  position: absolute;
+  top: -167.375px;
+  left: 133.9px;
+  z-index: 250;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 694px;
+  height: 726px;
+  background: url('../sprites/credits.png') -1px -2391px;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-2 {
+  position: absolute;
+  top: -73.645px;
+  left: 66.95px;
+  z-index: 250;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 694px;
+  height: 726px;
+  background: url('../sprites/credits.png') -1px -2391px;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-3 {
+  position: absolute;
+  top: -40.17px;
+  left: 200.85px;
+  z-index: 250;
+}
+#credits-panel-wrap .credits-panel-container .credits-snow-layer-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 694px;
+  height: 726px;
+  background: url('../sprites/credits.png') -1px -2391px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-buildings-0-layer-2 {
+  position: absolute;
+  top: 253.7405px;
+  left: 558.363px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-buildings-0-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 52px;
+  height: 142px;
+  background: url('../sprites/credits.png') -1px -1px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-buildings-11-layer-13 {
+  position: absolute;
+  top: 316.004px;
+  left: 378.937px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-buildings-11-layer-13 .base-img {
+  /* You may have to set 'display: block' */
+  width: 12px;
+  height: 40px;
+  background: url('../sprites/credits.png') -1px -1730px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-houses-2-layer-3 {
+  position: absolute;
+  top: 372.242px;
+  left: 429.1495px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-houses-2-layer-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 64px;
+  height: 50px;
+  background: url('../sprites/credits.png') -1px -2095px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-7-layer-10alt4_7 {
+  position: absolute;
+  top: 344.123px;
+  left: 473.3365px;
+  z-index: 1;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-7-layer-10alt4_7 .base-img {
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 37px;
+  background: url('../sprites/credits.png') -1px -3412px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-5-layer-8 {
+  position: absolute;
+  top: 393.666px;
+  left: 500.786px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-5-layer-8 .base-img {
+  /* You may have to set 'display: block' */
+  width: 48px;
+  height: 57px;
+  background: url('../sprites/credits.png') -1px -3450px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-6-layer-9 {
+  position: absolute;
+  top: 397.683px;
+  left: 619.957px;
+  z-index: 200;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-6-layer-9 .base-img {
+  /* You may have to set 'display: block' */
+  width: 47px;
+  height: 77px;
+  background: url('../sprites/credits.png') -1px -3508px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-8-layer-11 {
+  position: absolute;
+  top: 590.499px;
+  left: 368.225px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-8-layer-11 .base-img {
+  /* You may have to set 'display: block' */
+  width: 88px;
+  height: 98px;
+  background: url('../sprites/credits.png') -1px -3624px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-9-layer-12alt_0_4_B {
+  position: absolute;
+  top: 651.4235px;
+  left: 256.4185px;
+}
+#credits-panel-wrap .credits-panel-container .bot-right-group-trees-9-layer-12alt_0_4_B .base-img {
+  /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+  /* You may have to set 'display: block' */
+  width: 30px;
+  height: 38px;
+  background: url('../sprites/credits.png') -1px -3222px;
+}
+/*# sourceMappingURL=credits.css.map */

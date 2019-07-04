@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "name": "/Content/map/assets/base/img/Center_title_0001_smartonclimate.png",
+      "width": 520,
+      "height": 112,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    {
+      "name": "/Content/map/assets/base/img/Center_title_0002_beyond-crisis_noshadow.png",
+      "width": 653,
+      "height": 65,
+      "offsetX": 0,
+      "offsetY": 112
+    }
+  ]
+}

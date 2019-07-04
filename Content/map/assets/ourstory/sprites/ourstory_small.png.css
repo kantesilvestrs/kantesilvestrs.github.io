@@ -1,0 +1,141 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.Content-map-assets-ourstory-img-small_objects-Mapbase_Fish_0000_Layer-1-copy {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 13px;
+	background: url('ourstory_small.png') -1px -1px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_Fish_0001_Layer-2-copy {
+/* You may have to set 'display: block' */
+	width: 19px;
+	height: 13px;
+	background: url('ourstory_small.png') -1px -15px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0000_Layer-2 {
+/* You may have to set 'display: block' */
+	width: 85px;
+	height: 26px;
+	background: url('ourstory_small.png') -1px -29px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0001_Layer-3 {
+/* You may have to set 'display: block' */
+	width: 76px;
+	height: 35px;
+	background: url('ourstory_small.png') -1px -56px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0002_Layer-4 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 23px;
+	background: url('ourstory_small.png') -1px -92px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_River_waves_0003_Layer-5 {
+/* You may have to set 'display: block' */
+	width: 44px;
+	height: 10px;
+	background: url('ourstory_small.png') -1px -116px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_waves_0000_Layer-2 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 13px;
+	background: url('ourstory_small.png') -1px -127px;
+}
+.Content-map-assets-ourstory-img-small_objects-Mapbase_waves_0001_Layer-3 {
+/* You may have to set 'display: block' */
+	width: 79px;
+	height: 17px;
+	background: url('ourstory_small.png') -1px -141px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0000_ship {
+/* You may have to set 'display: block' */
+	width: 88px;
+	height: 36px;
+	background: url('ourstory_small.png') -1px -159px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0000_ship_flipped_horizontal {
+/* You may have to set 'display: block' */
+	width: 125px;
+	height: 56px;
+	background: url('ourstory_small.png') -1px -196px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0001_boat2 {
+/* You may have to set 'display: block' */
+	width: 22px;
+	height: 14px;
+	background: url('ourstory_small.png') -1px -253px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0002_boat1 {
+/* You may have to set 'display: block' */
+	width: 17px;
+	height: 10px;
+	background: url('ourstory_small.png') -1px -268px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0003_taxi2 {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 26px;
+	background: url('ourstory_small.png') -1px -279px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0003_taxi2_back {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 26px;
+	background: url('ourstory_small.png') -1px -306px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0004_taxi1 {
+/* You may have to set 'display: block' */
+	width: 27px;
+	height: 21px;
+	background: url('ourstory_small.png') -1px -333px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0004_taxi1_back {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 26px;
+	background: url('ourstory_small.png') -1px -355px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM__0005_balloon {
+/* You may have to set 'display: block' */
+	width: 38px;
+	height: 50px;
+	background: url('ourstory_small.png') -1px -382px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_1_close_wings {
+/* You may have to set 'display: block' */
+	width: 9px;
+	height: 16px;
+	background: url('ourstory_small.png') -1px -433px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_1_open_wings {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 8px;
+	background: url('ourstory_small.png') -1px -450px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_2_close_wings {
+/* You may have to set 'display: block' */
+	width: 11px;
+	height: 12px;
+	background: url('ourstory_small.png') -1px -459px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_2_open_wings {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 8px;
+	background: url('ourstory_small.png') -1px -472px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_3_close_wings {
+/* You may have to set 'display: block' */
+	width: 11px;
+	height: 11px;
+	background: url('ourstory_small.png') -1px -481px;
+}
+.Content-map-assets-ourstory-img-small_objects-PCM_B_3_open_wings {
+/* You may have to set 'display: block' */
+	width: 11px;
+	height: 8px;
+	background: url('ourstory_small.png') -1px -493px;
+}

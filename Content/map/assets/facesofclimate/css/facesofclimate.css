@@ -1,0 +1,343 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #faf6d9;
+  font-family: Muli, 'Century Gothic', 'Gothi', Helvetica, Arial;
+}
+#view-port {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+#facesofclimate-panel-wrap {
+  width: 600px;
+  height: 420px;
+  position: absolute;
+  left: 400px;
+  top: 60px;
+  display: none;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container .tv-trailers {
+  cursor: pointer;
+  position: absolute;
+  top: 131px;
+  left: -1px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container .tv-trailers .base-img {
+  /* You may have to set 'display: block' */
+  width: 323px;
+  height: 268px;
+  background: url('../sprites/facesofclimate_sprites.png') 0 0;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a {
+  text-decoration: none;
+  color: inherit;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon {
+  display: none;
+  position: absolute;
+  background-image: url(/Content/map/assets/facesofclimate/img/baloon_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  -webkit-border-top-left-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  -moz-border-radius-bottomright: 30px;
+  -moz-border-radius-bottomleft: 30px;
+  -moz-border-radius-topleft: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon img.tail {
+  position: absolute;
+  top: -38px;
+  left: 60px;
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  float: left;
+  *zoom: 1;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content:before,
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content:after {
+  clear: both;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content p.text {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a div .info-baloon .content .link {
+  text-align: center;
+  font-size: 28px;
+  margin-left: -10px;
+  margin-top: 18px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .camera-donations {
+  position: absolute;
+  top: 123px;
+  left: 283px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .camera-donations .info-baloon {
+  position: absolute;
+  top: 142px;
+  left: 128px;
+  width: 600px;
+  height: 240px;
+  padding: 20px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .camera-donations .base-img {
+  /* You may have to set 'display: block' */
+  width: 184px;
+  height: 142px;
+  background: url('../sprites/facesofclimate_sprites.png') -323px 0;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .blog-typer {
+  position: absolute;
+  top: 17px;
+  left: 373px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .blog-typer .info-baloon {
+  position: absolute;
+  top: 142px;
+  left: 128px;
+  width: 450px;
+  height: 200px;
+  padding: 20px;
+}
+#facesofclimate-panel-wrap .facesofclimate-panel-container a .blog-typer .base-img {
+  /* You may have to set 'display: block' */
+  width: 254px;
+  height: 130px;
+  background: url('../sprites/facesofclimate_sprites.png') -507px 0;
+}

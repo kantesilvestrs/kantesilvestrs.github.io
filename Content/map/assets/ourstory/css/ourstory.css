@@ -1,0 +1,1100 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #faf6d9;
+  font-family: Muli, 'Century Gothic', 'Gothi', Helvetica, Arial;
+}
+#view-port {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+/*
+@import this file directly into your existing Less files to use these mixins
+*/
+#ourstory-panel-wrap {
+  position: absolute;
+  width: 1071.2px;
+  height: 977.47px;
+  bottom: -115.8235px;
+  left: -33.475px;
+  display: none;
+  cursor: pointer;
+}
+#ourstory-panel-wrap .bridge-overlay {
+  position: absolute;
+  right: 466.6415px;
+  top: -168.714px;
+  z-index: 200;
+}
+#ourstory-panel-wrap .bridge-overlay .base-img {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  /* You may have to set 'display: block' */
+  width: 219px;
+  height: 185px;
+  background: url('../sprites/ourstory.png') 0 0;
+}
+#ourstory-panel-wrap #ourstory-panel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*#region Large objects*/
+  /*#region buildings*/
+  /*#endregion*/
+  /* #region top houses displayed in a line */
+  /* #endregion */
+  /* #region houses */
+  /* #endregion */
+  /* #region pcm-lamp-post */
+  /* #endregion */
+  /* #region pcm-lamp-march */
+  /* #endregion */
+  /* #region other */
+  /*#endregion*/
+  /*#region Trees*/
+  /*#endregion*/
+  /*#endregion */
+  /*#region Small objects*/
+  /*#region Birds*/
+  /*Open wings*/
+  /*Close wings*/
+  /*#endregion*/
+  /*#region Cars*/
+  /*#endregion*/
+  /*#region Boats*/
+  /*#endregion*/
+  /*#region River*/
+  /*#endregion*/
+  /*#endregion*/
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-2 {
+  position: absolute;
+  right: 73.645px;
+  top: 384.9625px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 31px;
+  height: 97px;
+  background: url('../sprites/ourstory.png') 0 -1182px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-4 {
+  position: absolute;
+  right: 234.325px;
+  top: 364.8775px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 65px;
+  height: 99px;
+  background: url('../sprites/ourstory.png') 0 -1279px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-6 {
+  position: absolute;
+  right: 428.48px;
+  top: -130.5525px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-building-6 .base-img {
+  /* You may have to set 'display: block' */
+  width: 39px;
+  height: 180px;
+  background: url('../sprites/ourstory.png') 0 -1378px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-1 {
+  position: absolute;
+  right: -40.17px;
+  top: 180.765px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 72px;
+  height: 113px;
+  background: url('../sprites/ourstory.png') 0 -1558px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-2 {
+  position: absolute;
+  right: 127.205px;
+  top: 341.445px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 79px;
+  height: 113px;
+  background: url('../sprites/ourstory.png') 0 -1671px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-3 {
+  position: absolute;
+  right: 170.7225px;
+  top: 264.4525px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 99px;
+  height: 193px;
+  background: url('../sprites/ourstory.png') 0 -1784px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-5-layer-1 {
+  position: absolute;
+  right: 502.125px;
+  top: 251.0625px;
+  z-index: 6;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-5-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 50px;
+  height: 152px;
+  background: url('../sprites/ourstory.png') 0 -2168px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-5-layer-2 {
+  position: absolute;
+  right: 536.939px;
+  top: 215.579px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-5-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 62px;
+  height: 153px;
+  background: url('../sprites/ourstory.png') 0 -2320px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-7 {
+  position: absolute;
+  right: 544.973px;
+  top: -8.7035px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-buildings-7 .base-img {
+  /* You may have to set 'display: block' */
+  width: 86px;
+  height: 164px;
+  background: url('../sprites/ourstory.png') 0 -2473px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-chrysler {
+  position: absolute;
+  right: 639.3725px;
+  top: -8.034px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-chrysler .base-img {
+  /* You may have to set 'display: block' */
+  width: 104px;
+  height: 303px;
+  background: url('../sprites/ourstory.png') 0 -2637px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-empire-state {
+  position: absolute;
+  right: 247.715px;
+  top: -251.0625px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-empire-state .base-img {
+  /* You may have to set 'display: block' */
+  width: 79px;
+  height: 268px;
+  background: url('../sprites/ourstory.png') 0 -2940px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-green-building-7 {
+  position: absolute;
+  right: 388.31px;
+  top: -103.7725px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-green-building-7 .base-img {
+  /* You may have to set 'display: block' */
+  width: 44px;
+  height: 112px;
+  background: url('../sprites/ourstory.png') 0 -3208px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1-layer-1 {
+  position: absolute;
+  right: 478.6925px;
+  top: 70.2975px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 83px;
+  height: 108px;
+  background: url('../sprites/ourstory.png') 0 -3320px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1-layer-2 {
+  position: absolute;
+  right: 428.48px;
+  top: 56.9075px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 67px;
+  height: 82px;
+  background: url('../sprites/ourstory.png') 0 -3428px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2-layer-1 {
+  position: absolute;
+  right: 374.2505px;
+  top: 15.3985px;
+  z-index: 2;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 69px;
+  height: 90px;
+  background: url('../sprites/ourstory.png') 0 -3840px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2-layer-2 {
+  position: absolute;
+  right: 324.7075px;
+  top: -5.356px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 63px;
+  height: 74px;
+  background: url('../sprites/ourstory.png') 0 -3930px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-0 {
+  position: absolute;
+  right: 381.615px;
+  top: 361.53px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-0 .base-img {
+  /* You may have to set 'display: block' */
+  width: 51px;
+  height: 64px;
+  background: url('../sprites/ourstory.png') 0 -3510px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1 {
+  position: absolute;
+  right: 28.7885px;
+  top: 276.5035px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 112px;
+  height: 103px;
+  background: url('../sprites/ourstory.png') 0 -3574px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2 {
+  position: absolute;
+  right: -60.255px;
+  top: 294.58px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 111px;
+  height: 118px;
+  background: url('../sprites/ourstory.png') 0 -3677px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-3 {
+  position: absolute;
+  right: 411.7425px;
+  top: 361.53px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-houses-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 77px;
+  height: 45px;
+  background: url('../sprites/ourstory.png') 0 -3795px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-1 {
+  position: absolute;
+  right: 341.445px;
+  top: 361.53px;
+  z-index: 2;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 15px;
+  height: 39px;
+  background: url('../sprites/ourstory.png') 0 -4004px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-2 {
+  position: absolute;
+  right: 159.341px;
+  top: 101.0945px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 15px;
+  height: 39px;
+  background: url('../sprites/ourstory.png') 0 -4043px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-3 {
+  position: absolute;
+  right: 150.6375px;
+  top: 307.97px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-post-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 15px;
+  height: 39px;
+  background: url('../sprites/ourstory.png') 0 -4082px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-1 {
+  position: absolute;
+  right: 316.004px;
+  top: 33.475px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 317px;
+  height: 226px;
+  background: url('../sprites/ourstory.png') 0 -185px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-2 {
+  position: absolute;
+  right: 297.9275px;
+  top: 33.475px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 322px;
+  height: 234px;
+  background: url('../sprites/ourstory.png') 0 -411px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-3 {
+  position: absolute;
+  right: 277.8425px;
+  top: 33.475px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 321px;
+  height: 224px;
+  background: url('../sprites/ourstory.png') 0 -645px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-4 {
+  position: absolute;
+  right: 552.3375px;
+  top: 200.85px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-main-4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 56px;
+  height: 62px;
+  background: url('../sprites/ourstory.png') 0 -869px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-1 {
+  position: absolute;
+  right: 187.46px;
+  top: 31.4665px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 102px;
+  height: 96px;
+  background: url('../sprites/ourstory.png') 0 -931px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-2 {
+  position: absolute;
+  right: 153.985px;
+  top: 36.8225px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 121px;
+  height: 81px;
+  background: url('../sprites/ourstory.png') 0 -1027px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-3 {
+  position: absolute;
+  right: 164.0275px;
+  top: 36.8225px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-lamp-march-topline-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 121px;
+  height: 74px;
+  background: url('../sprites/ourstory.png') 0 -1108px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-shop {
+  position: absolute;
+  right: 468.65px;
+  top: 13.39px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-shop .base-img {
+  /* You may have to set 'display: block' */
+  width: 53px;
+  height: 58px;
+  background: url('../sprites/ourstory.png') 0 -4121px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-statue-of-liberty {
+  position: absolute;
+  right: 903.825px;
+  top: 40.17px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-statue-of-liberty .base-img {
+  /* You may have to set 'display: block' */
+  width: 64px;
+  height: 148px;
+  background: url('../sprites/ourstory.png') 0 -4179px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-title-tag {
+  position: absolute;
+  right: -60.255px;
+  top: 113.815px;
+  z-index: 10;
+  display: none;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-title-tag .base-img {
+  /* You may have to set 'display: block' */
+  width: 586px;
+  height: 138px;
+  background: url('../sprites/ourstory.png') 0 -4327px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-1-layer-2 {
+  position: absolute;
+  right: 417.0985px;
+  top: 374.92px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-1-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 72px;
+  height: 58px;
+  background: url('../sprites/ourstory.png') 0 -4527px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-1-layer-1 {
+  position: absolute;
+  right: 291.2325px;
+  top: 229.6385px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-1-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 94px;
+  height: 75px;
+  background: url('../sprites/ourstory.png') 0 -4585px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-2 {
+  position: absolute;
+  right: 282.529px;
+  top: 296.5885px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 31px;
+  height: 41px;
+  background: url('../sprites/ourstory.png') 0 -4660px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-3 {
+  position: absolute;
+  right: 398.3525px;
+  top: 267.1305px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 44px;
+  height: 43px;
+  background: url('../sprites/ourstory.png') 0 -4701px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-4 {
+  position: absolute;
+  right: 324.7075px;
+  top: 330.0635px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-2-layer-4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 29px;
+  height: 44px;
+  background: url('../sprites/ourstory.png') 0 -4744px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-3-layer-1 {
+  position: absolute;
+  right: -87.7045px;
+  top: 239.681px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-3-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 242px;
+  height: 48px;
+  background: url('../sprites/ourstory.png') 0 -4788px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-3-layer-2 {
+  position: absolute;
+  right: 49.543px;
+  top: 139.256px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-3-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 159px;
+  height: 76px;
+  background: url('../sprites/ourstory.png') 0 -4836px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-4-layer-1 {
+  position: absolute;
+  right: 215.579px;
+  top: -2.678px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-4-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 31px;
+  height: 45px;
+  background: url('../sprites/ourstory.png') 0 -4912px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-4-layer-2 {
+  position: absolute;
+  right: 216.918px;
+  top: 46.1955px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-4-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 191px;
+  height: 107px;
+  background: url('../sprites/ourstory.png') 0 -4957px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5-layer-1 {
+  position: absolute;
+  right: 689.585px;
+  top: 232.986px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 32px;
+  height: 45px;
+  background: url('../sprites/ourstory.png') 0 -5064px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5-layer-2 {
+  position: absolute;
+  right: 622.635px;
+  top: 155.324px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5-layer-2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 32px;
+  height: 45px;
+  background: url('../sprites/ourstory.png') 0 -5109px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-0-layer-1 {
+  position: absolute;
+  right: 40.17px;
+  top: 436.514px;
+  z-index: 3;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-0-layer-1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 405px;
+  height: 62px;
+  background: url('../sprites/ourstory.png') 0 -4465px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5 {
+  position: absolute;
+  right: 450.5735px;
+  top: 133.9px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm-trees-5 .base-img {
+  /* You may have to set 'display: block' */
+  width: 87px;
+  height: 78px;
+  background: url('../sprites/ourstory.png') 0 -5154px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_1_open_wings {
+  position: absolute;
+  right: 74.984px;
+  top: 99.7555px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_1_open_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 8px;
+  background: url('../sprites/ourstory_small.png') -1px -450px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_2_open_wings {
+  position: absolute;
+  right: 62.2635px;
+  top: 113.815px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_2_open_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 13px;
+  height: 8px;
+  background: url('../sprites/ourstory_small.png') -1px -472px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_3_open_wings {
+  position: absolute;
+  right: 42.1785px;
+  top: 100.425px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_3_open_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 11px;
+  height: 8px;
+  background: url('../sprites/ourstory_small.png') -1px -493px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_1_close_wings {
+  position: absolute;
+  right: 75.6535px;
+  top: 93.73px;
+  z-index: 5;
+  /*border:1px solid blue;*/
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_1_close_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 9px;
+  height: 16px;
+  background: url('../sprites/ourstory_small.png') -1px -433px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_2_close_wings {
+  position: absolute;
+  right: 62.2635px;
+  top: 113.815px;
+  z-index: 5;
+  /*border:1px solid green;*/
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_2_close_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 11px;
+  height: 12px;
+  background: url('../sprites/ourstory_small.png') -1px -459px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_3_close_wings {
+  position: absolute;
+  right: 42.1785px;
+  top: 100.425px;
+  z-index: 5;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_b_3_close_wings .base-img {
+  /* You may have to set 'display: block' */
+  width: 11px;
+  height: 11px;
+  background: url('../sprites/ourstory_small.png') -1px -481px;
+  background-repeat: no-repeat;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_taxi1 {
+  position: absolute;
+  right: 437.1835px;
+  top: 318.0125px;
+  z-index: 2;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm_taxi2 {
+  position: absolute;
+  right: 370.2335px;
+  top: 428.48px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0004_taxi1 {
+  position: absolute;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0004_taxi1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 27px;
+  height: 21px;
+  background: url('../sprites/ourstory_small.png') -1px -333px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0003_taxi2 {
+  position: absolute;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0003_taxi2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 36px;
+  height: 26px;
+  background: url('../sprites/ourstory_small.png') -1px -279px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__taxi-top-right {
+  position: absolute;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__taxi-top-right .base-img {
+  /* You may have to set 'display: block' */
+  width: 36px;
+  height: 26px;
+  background: url('../sprites/ourstory_small.png') -1px -306px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__taxi-top-left {
+  position: absolute;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__taxi-top-left .base-img {
+  /* You may have to set 'display: block' */
+  width: 36px;
+  height: 26px;
+  background: url('../sprites/ourstory_small.png') -1px -355px;
+}
+#ourstory-panel-wrap #ourstory-panel-container #ourstory-taxi1-person-container {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  z-index: 2;
+}
+#ourstory-panel-wrap #ourstory-panel-container .on-way {
+  top: 368.225px;
+  right: 3.3475px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .arrived {
+  top: 97.0775px;
+  right: 113.815px;
+}
+#ourstory-panel-wrap #ourstory-panel-container #ourstory-taxi1-person-1 {
+  position: absolute;
+  left: 0.6695px;
+  top: 1.339px;
+}
+#ourstory-panel-wrap #ourstory-panel-container #ourstory-taxi1-person-2 {
+  position: absolute;
+  left: 4.6865px;
+  top: 1.339px;
+}
+#ourstory-panel-wrap #ourstory-panel-container #ourstory-taxi1-person-3 {
+  position: absolute;
+  left: 11.3815px;
+  top: 3.3475px;
+}
+#ourstory-panel-wrap #ourstory-panel-container #ourstory-taxi1-person-4 {
+  position: absolute;
+  left: 16.068px;
+  top: 0.6695px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0002_boat1 {
+  position: absolute;
+  right: 912.5285px;
+  top: 327.3855px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0002_boat1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 17px;
+  height: 10px;
+  background: url('../sprites/ourstory_small.png') -1px -268px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0001_boat2 {
+  position: absolute;
+  right: 771.9335px;
+  top: 443.8785px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0001_boat2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 22px;
+  height: 14px;
+  background: url('../sprites/ourstory_small.png') -1px -253px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0000_ship {
+  position: absolute;
+  right: 698.2885px;
+  top: 448.565px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0000_ship .base-img {
+  /* You may have to set 'display: block' */
+  width: 88px;
+  height: 36px;
+  background: url('../sprites/ourstory_small.png') -1px -159px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0000_ship_flip_horizontaly {
+  position: absolute;
+  right: 698.2885px;
+  top: 448.565px;
+  z-index: 1;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0000_ship_flip_horizontaly .base-img {
+  /* You may have to set 'display: block' */
+  width: 125px;
+  height: 56px;
+  background: url('../sprites/ourstory_small.png') -1px -196px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-fish-layer1 {
+  position: absolute;
+  top: -207.545px;
+  left: 736.45px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-fish-layer1 .base-img {
+  /* You may have to set 'display: block' */
+  width: 18px;
+  height: 13px;
+  background: url('../sprites/ourstory_small.png') -1px -1px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-fish-layer2 {
+  position: absolute;
+  top: -187.46px;
+  left: 723.06px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-fish-layer2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 19px;
+  height: 13px;
+  background: url('../sprites/ourstory_small.png') -1px -15px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0000-layer2 {
+  position: absolute;
+  top: -26.78px;
+  left: 267.8px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0000-layer2 .base-img {
+  /* You may have to set 'display: block' */
+  width: 85px;
+  height: 26px;
+  background: url('../sprites/ourstory_small.png') -1px -29px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-mid-river {
+  position: absolute;
+  top: -401.7px;
+  left: 937.3px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-mid-river .base-img {
+  /* You may have to set 'display: block' */
+  width: 44px;
+  height: 10px;
+  background: url('../sprites/ourstory_small.png') -1px -116px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0001-layer3 {
+  position: absolute;
+  top: -100.425px;
+  left: 575.77px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0001-layer3 .base-img {
+  /* You may have to set 'display: block' */
+  width: 76px;
+  height: 35px;
+  background: url('../sprites/ourstory_small.png') -1px -56px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0002-layer4 {
+  position: absolute;
+  top: -615.94px;
+  left: 1318.915px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .map-base-waves-0002-layer4 .base-img {
+  /* You may have to set 'display: block' */
+  width: 64px;
+  height: 23px;
+  background: url('../sprites/ourstory_small.png') -1px -92px;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0005_balloon {
+  position: absolute;
+  right: 180.765px;
+  top: 46.865px;
+  z-index: 4;
+}
+#ourstory-panel-wrap #ourstory-panel-container .pcm__0005_balloon .base-img {
+  /* You may have to set 'display: block' */
+  width: 38px;
+  height: 50px;
+  background: url('../sprites/ourstory_small.png') -1px -382px;
+}

@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "name": "/Content/map/assets/facesofclimate/img/Map_icons__0000_TV_6695_percent.png",
+      "width": 323,
+      "height": 268,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    {
+      "name": "/Content/map/assets/facesofclimate/img/Map_icons__0002_donate_6695_percent.png",
+      "width": 184,
+      "height": 142,
+      "offsetX": 323,
+      "offsetY": 0
+    },
+    {
+      "name": "/Content/map/assets/facesofclimate/img/Map_icons__0003_blog_6695_percent.png",
+      "width": 254,
+      "height": 130,
+      "offsetX": 507,
+      "offsetY": 0
+    }
+  ]
+}

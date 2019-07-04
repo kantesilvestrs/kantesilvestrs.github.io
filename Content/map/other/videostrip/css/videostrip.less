@@ -1,0 +1,111 @@
+﻿@import '../../../../client/css/base.less';
+
+
+
+#video-strip-wrap {
+    position: absolute;
+    z-index: 200;
+    top: 50%;
+    height: 36vh;
+    margin-top: -18vh;
+    width: 100%;
+    background-color: #101516;
+    background-image: url('../../../../client/img/sidepanel_texture.png');
+    background-size: cover;
+    #bundle .drop-shadow(0,0,20px,0.8);
+    display: none;
+
+    & .close-button {
+        position: absolute;
+        top: -6.3vh;
+        right: 0;
+        color: #FFF;
+        background-color: #101516;
+        background-image: url('../../../../client/img/sidepanel_texture.png');
+        background-size: cover;
+        cursor: pointer;
+        padding: 2vh 6vh;
+        z-index: 50;
+        font-size: 2vh;
+    }
+
+    & .crowd-fund-button {
+        position: absolute;
+        top: -5.8vh;
+        left: 50%;
+        margin-left: -19.7vh;
+        color: #FFF;
+        background-color: #101516;
+        background-image: url('../../../../client/img/sidepanel_texture.png');
+        background-size: cover;
+        cursor: pointer;
+        z-index: 50;
+        font-size: 2vh;
+        width: 43.6vh;
+        text-align: center;
+        height: 6vh;
+        line-height: 6vh;
+
+        & a {
+            text-decoration: none;
+            color: #FFF;
+
+            & img {
+                display: inline-block;
+                height: 4.5vh;
+                vertical-align: middle;
+                margin: 0;
+                margin-top: -0.5vh;
+            }
+        }
+    }
+
+    .video-strip-scroll {
+        #bundle.containerFill(100%,100%);
+
+        .video-strip-container {
+            #bundle .containerFill(200%,100%);
+            text-align: center;
+
+
+            .video-item {
+                height: 100%;
+                display: inline-block;
+
+                .thumbnail {
+                    position: relative;
+                    margin-left: 4vh;
+                    height: 24vh;
+                    margin-top: 4vh;
+                    width: 43vh;
+
+                    .video-container {
+                        #bundle .absoluteFill();
+                        z-index: 100;
+                    }
+
+                    .overlay-button {
+                        #bundle .absoluteFill();
+                        z-index: 200;
+                        cursor: pointer;
+                        text-align: center;
+
+                        img.base-img {
+                            width: 10vh;
+                            margin-top: 7vh;
+                        }
+                    }
+                }
+
+                .title {
+                    color: #FFF;
+                    text-transform: uppercase;
+                    text-align: left;
+                    margin-left: 4vh;
+                    margin-top: 1vh;
+                    font-size: 2.5vh;
+                }
+            }
+        }
+    }
+}

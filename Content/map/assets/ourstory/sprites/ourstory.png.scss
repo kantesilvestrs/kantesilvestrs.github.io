@@ -1,0 +1,291 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Content-map-assets-ourstory-img-bridge_above_layer() {
+/* You may have to set 'display: block' */
+	width: 219px;
+	height: 185px;
+	background: url('ourstory.png') 0 0;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Main_1() {
+/* You may have to set 'display: block' */
+	width: 317px;
+	height: 226px;
+	background: url('ourstory.png') 0 -185px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Main_2() {
+/* You may have to set 'display: block' */
+	width: 322px;
+	height: 234px;
+	background: url('ourstory.png') 0 -411px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Main_3() {
+/* You may have to set 'display: block' */
+	width: 321px;
+	height: 224px;
+	background: url('ourstory.png') 0 -645px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Main_4() {
+/* You may have to set 'display: block' */
+	width: 56px;
+	height: 62px;
+	background: url('ourstory.png') 0 -869px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Topline_1() {
+/* You may have to set 'display: block' */
+	width: 102px;
+	height: 96px;
+	background: url('ourstory.png') 0 -931px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Topline_2() {
+/* You may have to set 'display: block' */
+	width: 121px;
+	height: 81px;
+	background: url('ourstory.png') 0 -1027px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-March_Topline_3() {
+/* You may have to set 'display: block' */
+	width: 121px;
+	height: 74px;
+	background: url('ourstory.png') 0 -1108px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Building2() {
+/* You may have to set 'display: block' */
+	width: 31px;
+	height: 97px;
+	background: url('ourstory.png') 0 -1182px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Building4() {
+/* You may have to set 'display: block' */
+	width: 65px;
+	height: 99px;
+	background: url('ourstory.png') 0 -1279px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Building6() {
+/* You may have to set 'display: block' */
+	width: 39px;
+	height: 180px;
+	background: url('ourstory.png') 0 -1378px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings1() {
+/* You may have to set 'display: block' */
+	width: 72px;
+	height: 113px;
+	background: url('ourstory.png') 0 -1558px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_buildings2() {
+/* You may have to set 'display: block' */
+	width: 79px;
+	height: 113px;
+	background: url('ourstory.png') 0 -1671px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings3() {
+/* You may have to set 'display: block' */
+	width: 99px;
+	height: 193px;
+	background: url('ourstory.png') 0 -1784px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings5() {
+/* You may have to set 'display: block' */
+	width: 106px;
+	height: 191px;
+	background: url('ourstory.png') 0 -1977px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings5_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 50px;
+	height: 152px;
+	background: url('ourstory.png') 0 -2168px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings5_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 62px;
+	height: 153px;
+	background: url('ourstory.png') 0 -2320px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Buildings7() {
+/* You may have to set 'display: block' */
+	width: 86px;
+	height: 164px;
+	background: url('ourstory.png') 0 -2473px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Chrysler() {
+/* You may have to set 'display: block' */
+	width: 104px;
+	height: 303px;
+	background: url('ourstory.png') 0 -2637px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_EmpireState() {
+/* You may have to set 'display: block' */
+	width: 79px;
+	height: 268px;
+	background: url('ourstory.png') 0 -2940px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_GreenBuilding7() {
+/* You may have to set 'display: block' */
+	width: 44px;
+	height: 112px;
+	background: url('ourstory.png') 0 -3208px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_houses_0000_Layer-0() {
+/* You may have to set 'display: block' */
+	width: 83px;
+	height: 108px;
+	background: url('ourstory.png') 0 -3320px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_houses_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 67px;
+	height: 82px;
+	background: url('ourstory.png') 0 -3428px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_houses0() {
+/* You may have to set 'display: block' */
+	width: 51px;
+	height: 64px;
+	background: url('ourstory.png') 0 -3510px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Houses1() {
+/* You may have to set 'display: block' */
+	width: 112px;
+	height: 103px;
+	background: url('ourstory.png') 0 -3574px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Houses2() {
+/* You may have to set 'display: block' */
+	width: 111px;
+	height: 118px;
+	background: url('ourstory.png') 0 -3677px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Houses3() {
+/* You may have to set 'display: block' */
+	width: 77px;
+	height: 45px;
+	background: url('ourstory.png') 0 -3795px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Houses4_0000_Layer-0() {
+/* You may have to set 'display: block' */
+	width: 69px;
+	height: 90px;
+	background: url('ourstory.png') 0 -3840px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Houses4_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 63px;
+	height: 74px;
+	background: url('ourstory.png') 0 -3930px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_LampPost1() {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 39px;
+	background: url('ourstory.png') 0 -4004px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_LampPost2() {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 39px;
+	background: url('ourstory.png') 0 -4043px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_LampPost3() {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 39px;
+	background: url('ourstory.png') 0 -4082px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Shop() {
+/* You may have to set 'display: block' */
+	width: 53px;
+	height: 58px;
+	background: url('ourstory.png') 0 -4121px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_StatueofLiberty() {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 148px;
+	background: url('ourstory.png') 0 -4179px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_Title_tag() {
+/* You may have to set 'display: block' */
+	width: 586px;
+	height: 138px;
+	background: url('ourstory.png') 0 -4327px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_00_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 405px;
+	height: 62px;
+	background: url('ourstory.png') 0 -4465px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_00_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 72px;
+	height: 58px;
+	background: url('ourstory.png') 0 -4527px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_01_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 94px;
+	height: 75px;
+	background: url('ourstory.png') 0 -4585px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_01_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 31px;
+	height: 41px;
+	background: url('ourstory.png') 0 -4660px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_01_0002_Layer-3() {
+/* You may have to set 'display: block' */
+	width: 44px;
+	height: 43px;
+	background: url('ourstory.png') 0 -4701px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_01_0003_Layer-4() {
+/* You may have to set 'display: block' */
+	width: 29px;
+	height: 44px;
+	background: url('ourstory.png') 0 -4744px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_02_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 242px;
+	height: 48px;
+	background: url('ourstory.png') 0 -4788px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_02_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 159px;
+	height: 76px;
+	background: url('ourstory.png') 0 -4836px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_03_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 31px;
+	height: 45px;
+	background: url('ourstory.png') 0 -4912px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_03_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 191px;
+	height: 107px;
+	background: url('ourstory.png') 0 -4957px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_04_0000_Layer-1() {
+/* You may have to set 'display: block' */
+	width: 32px;
+	height: 45px;
+	background: url('ourstory.png') 0 -5064px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_04_0001_Layer-2() {
+/* You may have to set 'display: block' */
+	width: 32px;
+	height: 45px;
+	background: url('ourstory.png') 0 -5109px;
+}
+@mixin sprite-Content-map-assets-ourstory-img-PCM_trees_05() {
+/* You may have to set 'display: block' */
+	width: 87px;
+	height: 78px;
+	background: url('ourstory.png') 0 -5154px;
+}

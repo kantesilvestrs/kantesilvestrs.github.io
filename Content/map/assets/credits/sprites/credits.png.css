@@ -1,0 +1,273 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.Content-map-assets-credits-img-credits_buildings_0000_Layer-2 {
+/* You may have to set 'display: block' */
+	width: 52px;
+	height: 142px;
+	background: url('credits.png') -1px -1px;
+}
+.Content-map-assets-credits-img-credits_buildings_0001_Layer-3 {
+/* You may have to set 'display: block' */
+	width: 50px;
+	height: 189px;
+	background: url('credits.png') -1px -144px;
+}
+.Content-map-assets-credits-img-credits_buildings_0002_Layer-4 {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 137px;
+	background: url('credits.png') -1px -334px;
+}
+.Content-map-assets-credits-img-credits_buildings_0003_Layer-5 {
+/* You may have to set 'display: block' */
+	width: 45px;
+	height: 121px;
+	background: url('credits.png') -1px -472px;
+}
+.Content-map-assets-credits-img-credits_buildings_0004_Layer-6 {
+/* You may have to set 'display: block' */
+	width: 58px;
+	height: 245px;
+	background: url('credits.png') -1px -594px;
+}
+.Content-map-assets-credits-img-credits_buildings_0005_Layer-7 {
+/* You may have to set 'display: block' */
+	width: 48px;
+	height: 157px;
+	background: url('credits.png') -1px -840px;
+}
+.Content-map-assets-credits-img-credits_buildings_0006_Layer-8 {
+/* You may have to set 'display: block' */
+	width: 26px;
+	height: 135px;
+	background: url('credits.png') -1px -998px;
+}
+.Content-map-assets-credits-img-credits_buildings_0007_Layer-9 {
+/* You may have to set 'display: block' */
+	width: 99px;
+	height: 90px;
+	background: url('credits.png') -1px -1134px;
+}
+.Content-map-assets-credits-img-credits_buildings_0007_Layer-b {
+/* You may have to set 'display: block' */
+	width: 91px;
+	height: 38px;
+	background: url('credits.png') -1px -1225px;
+}
+.Content-map-assets-credits-img-credits_buildings_0008_Layer-10 {
+/* You may have to set 'display: block' */
+	width: 95px;
+	height: 224px;
+	background: url('credits.png') -1px -1264px;
+}
+.Content-map-assets-credits-img-credits_buildings_0009_Layer-11 {
+/* You may have to set 'display: block' */
+	width: 57px;
+	height: 193px;
+	background: url('credits.png') -1px -1489px;
+}
+.Content-map-assets-credits-img-credits_buildings_0010_Layer-12 {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 46px;
+	background: url('credits.png') -1px -1683px;
+}
+.Content-map-assets-credits-img-credits_buildings_0011_Layer-13 {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 40px;
+	background: url('credits.png') -1px -1730px;
+}
+.Content-map-assets-credits-img-credits_buildings_bellwoods {
+/* You may have to set 'display: block' */
+	width: 75px;
+	height: 73px;
+	background: url('credits.png') -1px -1771px;
+}
+.Content-map-assets-credits-img-Credits_CITY_tag {
+/* You may have to set 'display: block' */
+	width: 173px;
+	height: 110px;
+	background: url('credits.png') -1px -1845px;
+}
+.Content-map-assets-credits-img-credits_houses_0000_Layer-1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 54px;
+	background: url('credits.png') -1px -1956px;
+}
+.Content-map-assets-credits-img-credits_houses_0001_Layer-2 {
+/* You may have to set 'display: block' */
+	width: 58px;
+	height: 83px;
+	background: url('credits.png') -1px -2011px;
+}
+.Content-map-assets-credits-img-credits_houses_0002_Layer-3 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 50px;
+	background: url('credits.png') -1px -2095px;
+}
+.Content-map-assets-credits-img-credits_houses_0003_Layer-4 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 50px;
+	background: url('credits.png') -1px -2146px;
+}
+.Content-map-assets-credits-img-credits_houses_0004_Layer-5 {
+/* You may have to set 'display: block' */
+	width: 57px;
+	height: 79px;
+	background: url('credits.png') -1px -2197px;
+}
+.Content-map-assets-credits-img-credits_skaters_0012_Layer-14 {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 30px;
+	background: url('credits.png') -1px -2277px;
+}
+.Content-map-assets-credits-img-credits_skaters_0012_Layer-14_left {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 30px;
+	background: url('credits.png') -1px -2308px;
+}
+.Content-map-assets-credits-img-credits_skaters_0013_Layer-15 {
+/* You may have to set 'display: block' */
+	width: 19px;
+	height: 25px;
+	background: url('credits.png') -1px -2339px;
+}
+.Content-map-assets-credits-img-credits_skaters_0013_Layer-15_left {
+/* You may have to set 'display: block' */
+	width: 19px;
+	height: 25px;
+	background: url('credits.png') -1px -2365px;
+}
+.Content-map-assets-credits-img-credits_Snow {
+/* You may have to set 'display: block' */
+	width: 694px;
+	height: 726px;
+	background: url('credits.png') -1px -2391px;
+}
+.Content-map-assets-credits-img-credits_trees_0000_Layer-4 {
+/* You may have to set 'display: block' */
+	width: 98px;
+	height: 62px;
+	background: url('credits.png') -1px -3118px;
+}
+.Content-map-assets-credits-img-Credits_trees_0000_Layer-4_A {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 40px;
+	background: url('credits.png') -1px -3181px;
+}
+.Content-map-assets-credits-img-Credits_trees_0000_Layer-4_B {
+/* You may have to set 'display: block' */
+	width: 30px;
+	height: 38px;
+	background: url('credits.png') -1px -3222px;
+}
+.Content-map-assets-credits-img-credits_trees_0001_Layer-3 {
+/* You may have to set 'display: block' */
+	width: 13px;
+	height: 25px;
+	background: url('credits.png') -1px -3261px;
+}
+.Content-map-assets-credits-img-credits_trees_0002_Layer-5 {
+/* You may have to set 'display: block' */
+	width: 70px;
+	height: 86px;
+	background: url('credits.png') -1px -3287px;
+}
+.Content-map-assets-credits-img-credits_trees_0003_Layer-6 {
+/* You may have to set 'display: block' */
+	width: 31px;
+	height: 37px;
+	background: url('credits.png') -1px -3374px;
+}
+.Content-map-assets-credits-img-credits_trees_0004_Layer-7 {
+/* You may have to set 'display: block' */
+	width: 30px;
+	height: 37px;
+	background: url('credits.png') -1px -3412px;
+}
+.Content-map-assets-credits-img-credits_trees_0005_Layer-8 {
+/* You may have to set 'display: block' */
+	width: 48px;
+	height: 57px;
+	background: url('credits.png') -1px -3450px;
+}
+.Content-map-assets-credits-img-credits_trees_0006_Layer-9 {
+/* You may have to set 'display: block' */
+	width: 47px;
+	height: 77px;
+	background: url('credits.png') -1px -3508px;
+}
+.Content-map-assets-credits-img-credits_trees_0007_Layer-10 {
+/* You may have to set 'display: block' */
+	width: 30px;
+	height: 37px;
+	background: url('credits.png') -1px -3586px;
+}
+.Content-map-assets-credits-img-credits_trees_0008_Layer-11 {
+/* You may have to set 'display: block' */
+	width: 88px;
+	height: 98px;
+	background: url('credits.png') -1px -3624px;
+}
+.Content-map-assets-credits-img-credits_trees_0009_Layer-12 {
+/* You may have to set 'display: block' */
+	width: 32px;
+	height: 42px;
+	background: url('credits.png') -1px -3723px;
+}
+.Content-map-assets-credits-img-credits_trees_0010_Layer-13 {
+/* You may have to set 'display: block' */
+	width: 44px;
+	height: 76px;
+	background: url('credits.png') -1px -3766px;
+}
+.Content-map-assets-credits-img-credits_trees_0011_Layer-14 {
+/* You may have to set 'display: block' */
+	width: 115px;
+	height: 90px;
+	background: url('credits.png') -1px -3843px;
+}
+.Content-map-assets-credits-img-credits_TTC1 {
+/* You may have to set 'display: block' */
+	width: 93px;
+	height: 78px;
+	background: url('credits.png') -1px -3934px;
+}
+.Content-map-assets-credits-img-credits_TTC1_flip {
+/* You may have to set 'display: block' */
+	width: 80px;
+	height: 56px;
+	background: url('credits.png') -1px -4013px;
+}
+.Content-map-assets-credits-img-credits_TTC2 {
+/* You may have to set 'display: block' */
+	width: 75px;
+	height: 106px;
+	background: url('credits.png') -1px -4070px;
+}
+.Content-map-assets-credits-img-credits_TTC3 {
+/* You may have to set 'display: block' */
+	width: 75px;
+	height: 77px;
+	background: url('credits.png') -1px -4177px;
+}
+.Content-map-assets-credits-img-credits_TTC4 {
+/* You may have to set 'display: block' */
+	width: 95px;
+	height: 60px;
+	background: url('credits.png') -1px -4255px;
+}
+.Content-map-assets-credits-img-credits_TTC5 {
+/* You may have to set 'display: block' */
+	width: 95px;
+	height: 60px;
+	background: url('credits.png') -1px -4316px;
+}

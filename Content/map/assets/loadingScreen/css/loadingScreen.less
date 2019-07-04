@@ -1,0 +1,42 @@
+﻿@import "../../../../client/css/base.less";
+
+body {
+    
+}
+
+canvas, img { display:block; margin:1em auto; }
+
+
+#loading-screen-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+    & #loading-screen-container {
+        position: absolute;
+        width:280px;
+        height:280px;
+        z-index:1010;
+
+        & #loading-screen-earth {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        & #loading-screen-sun {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            background-image: url(../../loadingScreen/img/loadingScreen_sun.png);
+
+            & .base-img {
+                //could not get it to work..
+            }
+        }
+    }
+}

@@ -1,0 +1,428 @@
+﻿@import '../../../../client/css/base.less';
+@import '../sprites/credits.png.less';
+
+#credits-panel-wrap {
+    @new-map-ratio: 0.6695;
+    #bundle .absolutePositionTL(1280 * @new-map-ratio,2348 * @new-map-ratio);
+    #bundle .size(1350px * @new-map-ratio,1073px * @new-map-ratio);
+    overflow: visible;
+    cursor: pointer;
+    display: none;
+    //background-color: rgba(0, 0, 255, 0.11);
+    .credits-panel-container {
+        #bundle .containerFill(100%,100%);
+        //Title Tag
+        & .title-tag {
+            #bundle .absolutePositionTL(200 * @new-map-ratio,200 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-Credits_CITY_tag();
+            }
+        }
+        //Top Zone
+        //Left Side
+        //Buildings Group
+        & .top-left-group-buildings-7-layer-9 {
+            #bundle .absolutePositionTL(-69 * @new-map-ratio,761 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0007_Layer-9();
+            }
+        }
+
+        & .top-left-group-buildings-7-layer-b {
+            #bundle .absolutePositionTL(14 * @new-map-ratio,900 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0007_Layer-b();
+            }
+        }
+        //Pople Group
+        //skater with red jemper
+        & .skater-with-red-jemper {
+            #bundle .absolutePositionTL(74 * @new-map-ratio,897 * @new-map-ratio);
+            z-index: 10;
+        }
+
+        & .red-facing-right {
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_skaters_0012_Layer-14();
+            }
+        }
+
+        & .red-facing-left {
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_skaters_0012_Layer-14_left();
+            }
+        }
+        //skater with purple jemper
+        & .skater-with-purple-jemper {
+            #bundle .absolutePositionTL(65 * @new-map-ratio,923 * @new-map-ratio);
+        }
+
+        & .purple-facing-right {
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_skaters_0013_Layer-15();
+            }
+        }
+
+        & .purple-facing-left {
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_skaters_0013_Layer-15_left();
+            }
+        }
+        //Right Side
+        //Buildings Group
+        & .top-right-group-buildings-9-layer-11 {
+            #bundle .absolutePositionTL(-156 * @new-map-ratio,1068 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0009_Layer-11();
+            }
+        }
+
+        & .top-right-group-buildings-5-layer-7 {
+            #bundle .absolutePositionTL(-77 * @new-map-ratio,1205 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0005_Layer-7();
+            }
+        }
+        //Trees and Poles Group
+        & .top-right-group-treesandpoles-0-layer-4-B {
+            #bundle .absolutePositionTL(91 * @new-map-ratio,947 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                //.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();
+                .sprite-Content-map-assets-credits-img-Credits_trees_0000_Layer-4_B();
+            }
+        }
+
+        & .top-right-group-treesandpoles-0-layer-4-A {
+            #bundle .absolutePositionTL(125 * @new-map-ratio,850 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                //.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_A();
+                .sprite-Content-map-assets-credits-img-Credits_trees_0000_Layer-4_A();
+            }
+        }
+
+        & .top-right-group-treesandpoles-10-layer-12 {
+            #bundle .absolutePositionTL(154 * @new-map-ratio,1084 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0010_Layer-12();
+            }
+        }
+        //Mid Zone
+        //Left Side
+        //Buildings Group
+        & .mid-left-group-buildings-6-layer-8 {
+            #bundle .absolutePositionTL(-8 * @new-map-ratio,491 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0006_Layer-8();
+            }
+        }
+
+        & .mid-left-group-buildings-8-layer-10 {
+            #bundle .absolutePositionTL(-14 * @new-map-ratio,553 * @new-map-ratio);
+            z-index: 200;
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0008_Layer-10();
+            }
+        }
+
+
+        //Streetcars Group
+        & .mid-left-group-streetcars-ttc-1 {
+            #bundle .absolutePositionTL(138 * @new-map-ratio,650 * @new-map-ratio);
+            z-index: 150;
+            #bundle .transform(rotate(-3deg));
+        }
+        & .bot-right-group-streetcar-ttc-2 {
+            z-index: 150;
+            #bundle .absolutePositionTL(377 * @new-map-ratio,689 * @new-map-ratio);
+        }
+
+        & .streetcar-top-right {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC3();
+            }
+        }
+        & .streetcar-mid-right {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC1();
+            }
+        }
+        & .streetcar-mid-left {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC1_flip();
+            }
+        }
+        & .streetcar-bottom-left {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC2();
+            }
+        }
+
+        & .streetcar-right {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC4();
+            }
+        }
+
+        & .streetcar-left {
+            & .base-img {
+                #bundle .transform(scale(0.80));
+                .sprite-Content-map-assets-credits-img-credits_TTC5();
+            }
+        }
+
+
+
+
+        //Houses Groups
+        & .mid-left-group-houses-1-layer-2 {
+            #bundle .absolutePositionTL(317 * @new-map-ratio,597 * @new-map-ratio);
+            z-index: 140;
+
+            & .base-img {
+                #bundle .transform(scale(0.95));
+                .sprite-Content-map-assets-credits-img-credits_houses_0004_Layer-5();
+            }
+        }
+
+        & .mid-left-group-houses-4-layer-5 {
+            #bundle .absolutePositionTL(365 * @new-map-ratio,555 * @new-map-ratio);
+            #bundle .transform(rotate(-3deg));
+            z-index: 144;
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_houses_0004_Layer-5();
+            }
+        }
+        //Trees Goroup
+        & .mid-left-group-trees-3-layer-6 {
+            #bundle .absolutePositionTL(388 * @new-map-ratio,349 * @new-map-ratio);
+
+            & .base-img {
+                /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+                .sprite-Content-map-assets-credits-img-Credits_trees_0000_Layer-4_B();
+            }
+        }
+        //Right Zone
+        //Buildings Group
+        & .mid-right-group-buildings-4-layer-6 {
+            #bundle .absolutePositionTL(-2 * @new-map-ratio,1132 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0004_Layer-6();
+            }
+        }
+
+        & .mid-right-group-buildings-3-layer-5 {
+            #bundle .absolutePositionTL(255 * @new-map-ratio,1060 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0003_Layer-5();
+            }
+        }
+
+        & .mid-right-group-buildings-2-layer-4 {
+            #bundle .absolutePositionTL(127 * @new-map-ratio,999 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0002_Layer-4();
+            }
+        }
+
+        & .mid-right-group-buildings-1-layer-3 {
+            #bundle .absolutePositionTL(159 * @new-map-ratio,927 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0001_Layer-3();
+            }
+        }
+
+        & .mid-right-group-buildings-bellwoods {
+            #bundle .absolutePositionTL(315 * @new-map-ratio,729 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_bellwoods();
+            }
+        }
+        //Trees Group
+        & .mid-right-group-trees-1-layer-3 {
+            #bundle .absolutePositionTL(270 * @new-map-ratio,1217 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0001_Layer-3();
+            }
+        }
+
+        & .mid-right-group-trees-2-layer-5-alt0_4_B {
+            #bundle .absolutePositionTL(264 * @new-map-ratio,721 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+                .sprite-Content-map-assets-credits-img-Credits_trees_0000_Layer-4_B();
+            }
+        }
+
+        & .mid-right-group-trees-2-layer-5-alt1_3 {
+            #bundle .absolutePositionTL(352 * @new-map-ratio,677 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0001_Layer-3();
+            }
+        }
+        //Bottom Zone
+        //Left Zone
+        //Houses Group
+        & .bot-left-group-houses-0-layer-1 {
+            #bundle .absolutePositionTL(428 * @new-map-ratio,301 * @new-map-ratio);
+            z-index:201;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_houses_0000_Layer-1();
+            }
+        }
+
+
+        & .bot-left-group-houses-3-layer-4 {
+            #bundle .absolutePositionTL(455 * @new-map-ratio,358 * @new-map-ratio);
+            z-index:202;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_houses_0003_Layer-4();
+            }
+        }
+        // Trees Group
+        & .bot-left-group-trees-10-layer-13 {
+            #bundle .absolutePositionTL(494 * @new-map-ratio,403 * @new-map-ratio);
+            z-index:203;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0010_Layer-13();
+            }
+        }
+
+        & .bot-left-group-trees-11-layer-14 {
+            #bundle .absolutePositionTL(606 * @new-map-ratio,423 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0011_Layer-14();
+            }
+        }
+
+        & .bot-left-group-trees-4-layer-7 {
+            #bundle .absolutePositionTL(738 * @new-map-ratio,238 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0004_Layer-7();
+            }
+        }
+
+        & .credits-snow-layer-1{
+            position:absolute;
+            top: -250px * @new-map-ratio;
+            left: 200px * @new-map-ratio;
+            z-index:250;
+
+             & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_Snow();
+            }
+        }
+        & .credits-snow-layer-2{
+            position:absolute;
+            top: -110px * @new-map-ratio;
+            left: 100px * @new-map-ratio;
+            z-index:250;
+
+             & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_Snow();
+            }
+        }
+        & .credits-snow-layer-3{
+            position:absolute;
+            top: -60px * @new-map-ratio;
+            left: 300px * @new-map-ratio;
+            z-index:250;
+
+             & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_Snow();
+            }
+        }
+
+        //Right Zone
+        //Buildings Group
+        & .bot-right-group-buildings-0-layer-2 {
+            #bundle .absolutePositionTL(379 * @new-map-ratio,834 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0000_Layer-2();
+            }
+        }
+
+        & .bot-right-group-buildings-11-layer-13 {
+            #bundle .absolutePositionTL(472 * @new-map-ratio,566 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_buildings_0011_Layer-13();
+            }
+        }
+        ///Houses Group
+        & .bot-right-group-houses-2-layer-3 {
+            #bundle .absolutePositionTL(556 * @new-map-ratio,641 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_houses_0002_Layer-3();
+            }
+        }
+        //Trees Group
+        & .bot-right-group-trees-7-layer-10alt4_7 {
+            #bundle .absolutePositionTL(514 * @new-map-ratio,707 * @new-map-ratio);
+            z-index:1;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0004_Layer-7();
+            }
+        }
+
+        & .bot-right-group-trees-5-layer-8 {
+            #bundle .absolutePositionTL(588 * @new-map-ratio,748 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0005_Layer-8();
+            }
+        }
+
+        & .bot-right-group-trees-6-layer-9 {
+            #bundle .absolutePositionTL(594 * @new-map-ratio,926 * @new-map-ratio);
+            z-index:200;
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0006_Layer-9();
+            }
+        }
+
+        & .bot-right-group-trees-8-layer-11 {
+            #bundle .absolutePositionTL(882 * @new-map-ratio,550 * @new-map-ratio);
+
+            & .base-img {
+                .sprite-Content-map-assets-credits-img-credits_trees_0008_Layer-11();
+            }
+        }
+
+        & .bot-right-group-trees-9-layer-12alt_0_4_B {
+            #bundle .absolutePositionTL(973 * @new-map-ratio,383 * @new-map-ratio);
+
+            & .base-img {
+                /*.sprite-Content-map-assets-credits-img-credits_trees_0000_Layer-4_B();*/
+                .sprite-Content-map-assets-credits-img-Credits_trees_0000_Layer-4_B();
+            }
+        }
+    }
+}
